@@ -1,0 +1,1222 @@
+fileFormatVersion: 2
+guid: ca6b20a6dc48c694eae270cb2614efe4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4746711771550032536
+    second: Dwarf Miner Sprite Sheet_0
+  - first:
+      213: 6739739573656094553
+    second: Dwarf Miner Sprite Sheet_1
+  - first:
+      213: -2755743166075390055
+    second: Dwarf Miner Sprite Sheet_2
+  - first:
+      213: -7623657613370580708
+    second: Dwarf Miner Sprite Sheet_3
+  - first:
+      213: -376880955548808338
+    second: Dwarf Miner Sprite Sheet_4
+  - first:
+      213: -183207084287298034
+    second: Dwarf Miner Sprite Sheet_5
+  - first:
+      213: -2934758566193372221
+    second: Dwarf Miner Sprite Sheet_6
+  - first:
+      213: 4461948036383490734
+    second: Dwarf Miner Sprite Sheet_7
+  - first:
+      213: -3221162690003006747
+    second: Dwarf Miner Sprite Sheet_8
+  - first:
+      213: -3082275826593184142
+    second: Dwarf Miner Sprite Sheet_9
+  - first:
+      213: -8979180643032990897
+    second: Dwarf Miner Sprite Sheet_10
+  - first:
+      213: 7237078249479895705
+    second: Dwarf Miner Sprite Sheet_11
+  - first:
+      213: 4035477945782007151
+    second: Dwarf Miner Sprite Sheet_12
+  - first:
+      213: -2553348485558587795
+    second: Dwarf Miner Sprite Sheet_13
+  - first:
+      213: -4891170570969525606
+    second: Dwarf Miner Sprite Sheet_14
+  - first:
+      213: -7897478611696787720
+    second: Dwarf Miner Sprite Sheet_15
+  - first:
+      213: 5168603391160833130
+    second: Dwarf Miner Sprite Sheet_16
+  - first:
+      213: -7670205264809840816
+    second: Dwarf Miner Sprite Sheet_17
+  - first:
+      213: -4029848282716514535
+    second: Dwarf Miner Sprite Sheet_18
+  - first:
+      213: -4289650833143611712
+    second: Dwarf Miner Sprite Sheet_19
+  - first:
+      213: 3270792564355908151
+    second: Dwarf Miner Sprite Sheet_20
+  - first:
+      213: -1877526299100359448
+    second: Dwarf Miner Sprite Sheet_21
+  - first:
+      213: 7823002656389421068
+    second: Dwarf Miner Sprite Sheet_22
+  - first:
+      213: -9044068370433704200
+    second: Dwarf Miner Sprite Sheet_23
+  - first:
+      213: 2829590843379639114
+    second: Dwarf Miner Sprite Sheet_24
+  - first:
+      213: -8851900820957048044
+    second: Dwarf Miner Sprite Sheet_25
+  - first:
+      213: -1937750850127552013
+    second: Dwarf Miner Sprite Sheet_26
+  - first:
+      213: 4122392886323382359
+    second: Dwarf Miner Sprite Sheet_27
+  - first:
+      213: 6018266415589755421
+    second: Dwarf Miner Sprite Sheet_28
+  - first:
+      213: -4703250766123161235
+    second: Dwarf Miner Sprite Sheet_29
+  - first:
+      213: -41799401172567038
+    second: Dwarf Miner Sprite Sheet_30
+  - first:
+      213: 3746627516100255687
+    second: Dwarf Miner Sprite Sheet_31
+  - first:
+      213: -5323076632771980387
+    second: Dwarf Miner Sprite Sheet_32
+  - first:
+      213: 7448435753052226004
+    second: Dwarf Miner Sprite Sheet_33
+  - first:
+      213: -2371882585383171746
+    second: Dwarf Miner Sprite Sheet_34
+  - first:
+      213: -3011790110071039960
+    second: Dwarf Miner Sprite Sheet_35
+  - first:
+      213: -6752534198585274993
+    second: Dwarf Miner Sprite Sheet_36
+  - first:
+      213: -4787401583656337236
+    second: Dwarf Miner Sprite Sheet_37
+  - first:
+      213: 7531377992286154834
+    second: Dwarf Miner Sprite Sheet_38
+  - first:
+      213: -2214865867239859901
+    second: Dwarf Miner Sprite Sheet_39
+  - first:
+      213: 4263093319112245530
+    second: Dwarf Miner Sprite Sheet_40
+  - first:
+      213: -743815663973178916
+    second: Dwarf Miner Sprite Sheet_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 159
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892a7620535bfd140800000000000000
+      internalID: 4746711771550032536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 159
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9570a6efe6d588d50800000000000000
+      internalID: 6739739573656094553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 159
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997bdd5e032a1c9d0800000000000000
+      internalID: -2755743166075390055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 159
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1128d1eac3533690800000000000000
+      internalID: -7623657613370580708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 159
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b47e984cc05caf0800000000000000
+      internalID: -376880955548808338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 159
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0678b4a02e157df0800000000000000
+      internalID: -183207084287298034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 159
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3628012a4a547d0800000000000000
+      internalID: -2934758566193372221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 159
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2c3e249160ced30800000000000000
+      internalID: 4461948036383490734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 127
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea01a299912c43d0800000000000000
+      internalID: -3221162690003006747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 129
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276c320677e8935d0800000000000000
+      internalID: -3082275826593184142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 129
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b74f567ca836380800000000000000
+      internalID: -8979180643032990897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 129
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a74fff2544f6460800000000000000
+      internalID: 7237078249479895705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 127
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6572419fc5e00830800000000000000
+      internalID: 4035477945782007151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 129
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6eaf72a41fa09cd0800000000000000
+      internalID: -2553348485558587795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 130
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92548db7421f1cb0800000000000000
+      internalID: -4891170570969525606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 129
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe51989b05866290800000000000000
+      internalID: -7897478611696787720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 95
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64550b56619ab740800000000000000
+      internalID: 5168603391160833130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 95
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fadac33f4fd8590800000000000000
+      internalID: -7670205264809840816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 97
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917d6f1865a1318c0800000000000000
+      internalID: -4029848282716514535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 99
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce34087b491874c0800000000000000
+      internalID: -4289650833143611712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 100
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7324c640280346d20800000000000000
+      internalID: 3270792564355908151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 95
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e45bad47cfa1f5e0800000000000000
+      internalID: -1877526299100359448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 96
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08570bc773e09c60800000000000000
+      internalID: 7823002656389421068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 97
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fef3ff0cb30d7280800000000000000
+      internalID: -9044068370433704200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 63
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43675751e9b44720800000000000000
+      internalID: 2829590843379639114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 63
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413dddb4a1bb72580800000000000000
+      internalID: -8851900820957048044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 63
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1afe25ed9bb15e0800000000000000
+      internalID: -1937750850127552013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 63
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75807ed1d7ea53930800000000000000
+      internalID: 4122392886323382359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 63
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a04e83b6d258350800000000000000
+      internalID: 6018266415589755421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 63
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6925abd852babeb0800000000000000
+      internalID: -4703250766123161235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 63
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20cf8458aaf7b6ff0800000000000000
+      internalID: -41799401172567038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 63
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf1cda10e1bef330800000000000000
+      internalID: 3746627516100255687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 31
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93917f5102a026b0800000000000000
+      internalID: -5323076632771980387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d14ff89ad82e5760800000000000000
+      internalID: 7448435753052226004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 31
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e590d49fa51651fd0800000000000000
+      internalID: -2371882585383171746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8285e2f1ad8f336d0800000000000000
+      internalID: -3011790110071039960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 31
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8dc5af3ced2a42a0800000000000000
+      internalID: -6752534198585274993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 0
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca08509df9bbf8db0800000000000000
+      internalID: -4787401583656337236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 31
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250396b8164d48860800000000000000
+      internalID: 7531377992286154834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 0
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349d7068a373341e0800000000000000
+      internalID: -2214865867239859901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 0
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11c60279cc892b30800000000000000
+      internalID: 4263093319112245530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dwarf Miner Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 0
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1e182389f6da5f0800000000000000
+      internalID: -743815663973178916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 64f6e4cdf645c4a44bfdf96e8ea6ddd1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Dwarf Miner Sprite Sheet_0: 4746711771550032536
+      Dwarf Miner Sprite Sheet_1: 6739739573656094553
+      Dwarf Miner Sprite Sheet_10: -8979180643032990897
+      Dwarf Miner Sprite Sheet_11: 7237078249479895705
+      Dwarf Miner Sprite Sheet_12: 4035477945782007151
+      Dwarf Miner Sprite Sheet_13: -2553348485558587795
+      Dwarf Miner Sprite Sheet_14: -4891170570969525606
+      Dwarf Miner Sprite Sheet_15: -7897478611696787720
+      Dwarf Miner Sprite Sheet_16: 5168603391160833130
+      Dwarf Miner Sprite Sheet_17: -7670205264809840816
+      Dwarf Miner Sprite Sheet_18: -4029848282716514535
+      Dwarf Miner Sprite Sheet_19: -4289650833143611712
+      Dwarf Miner Sprite Sheet_2: -2755743166075390055
+      Dwarf Miner Sprite Sheet_20: 3270792564355908151
+      Dwarf Miner Sprite Sheet_21: -1877526299100359448
+      Dwarf Miner Sprite Sheet_22: 7823002656389421068
+      Dwarf Miner Sprite Sheet_23: -9044068370433704200
+      Dwarf Miner Sprite Sheet_24: 2829590843379639114
+      Dwarf Miner Sprite Sheet_25: -8851900820957048044
+      Dwarf Miner Sprite Sheet_26: -1937750850127552013
+      Dwarf Miner Sprite Sheet_27: 4122392886323382359
+      Dwarf Miner Sprite Sheet_28: 6018266415589755421
+      Dwarf Miner Sprite Sheet_29: -4703250766123161235
+      Dwarf Miner Sprite Sheet_3: -7623657613370580708
+      Dwarf Miner Sprite Sheet_30: -41799401172567038
+      Dwarf Miner Sprite Sheet_31: 3746627516100255687
+      Dwarf Miner Sprite Sheet_32: -5323076632771980387
+      Dwarf Miner Sprite Sheet_33: 7448435753052226004
+      Dwarf Miner Sprite Sheet_34: -2371882585383171746
+      Dwarf Miner Sprite Sheet_35: -3011790110071039960
+      Dwarf Miner Sprite Sheet_36: -6752534198585274993
+      Dwarf Miner Sprite Sheet_37: -4787401583656337236
+      Dwarf Miner Sprite Sheet_38: 7531377992286154834
+      Dwarf Miner Sprite Sheet_39: -2214865867239859901
+      Dwarf Miner Sprite Sheet_4: -376880955548808338
+      Dwarf Miner Sprite Sheet_40: 4263093319112245530
+      Dwarf Miner Sprite Sheet_41: -743815663973178916
+      Dwarf Miner Sprite Sheet_5: -183207084287298034
+      Dwarf Miner Sprite Sheet_6: -2934758566193372221
+      Dwarf Miner Sprite Sheet_7: 4461948036383490734
+      Dwarf Miner Sprite Sheet_8: -3221162690003006747
+      Dwarf Miner Sprite Sheet_9: -3082275826593184142
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
