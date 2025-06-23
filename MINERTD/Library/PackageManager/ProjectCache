@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638857073839336697
-    m_Hash: 2772493941
+      ticks: 638862997687051333
+    m_Hash: 3932835388
   m_LockFileStatus:
     m_FilePath: D:/MINERTD/MINERTD/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638857073839346700
-    m_Hash: 1874396413
+      ticks: 638862997688055376
+    m_Hash: 421575330
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,12 +22,12 @@ m_LocalPackages:
 m_ProjectPath: D:/MINERTD/MINERTD/Packages
 m_EditorVersion: 6000.1.2f1 (8e2281df4c52)
 m_ResolvedPackages:
-- packageId: com.unity.2d.animation@10.2.0
+- packageId: com.unity.2d.animation@10.2.1
   testable: 0
   isDirectDependency: 1
-  version: 10.2.0
+  version: 10.2.1
   source: 1
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.animation@53bd21164c9c
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.animation@81ad133dbdf1
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -188,7 +188,7 @@ m_ResolvedPackages:
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 9.1.0
+    version: 9.1.1
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
@@ -199,7 +199,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 9.1.0
+    version: 9.1.1
   - name: com.unity.burst
     version: 1.8.21
   - name: com.unity.mathematics
@@ -243,13 +243,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638774696150700000
+  datePublishedTicks: 638856773149660000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@10.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 94a6127c9283f843ec1c9482222d58cde9b291e9
+    revision: 383370d5a0ac5360369e71e96aa41ade8ed5c1b5
     path: 
   unityLifecycle:
     version: 10.2.0
@@ -262,14 +262,20 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n- Update minimum Unity version.\n\n###
-    Fixed\n- Sprite Skin''s test instability. (DANB-772) \n- Sprite Skin''s null
-    ref exception when HDRP is present in the project. (DANB-785)\n- Updating Skinning
-    Plugin to work on Ubuntu versions >= 20.\n- Skinning Editor style fixes. (DANB-804)\n-
-    Reset TransformAccessJob''s cache. (DANB-807)\n- Asset Upgrader icons. (DANB-802)"}'
+  upmReserved: '{"changelog":"### Fixed\n- Fix the exception when generating geometry
+    with hidden sprites. (DANB-841)\n- Added missing tooltips to visibility window
+    (DANB-843)\n- Fixed InvalidOperationException occurs when playing in sample scene
+    ''3 Character'' and ''Attachment Points''. (DANB-860)\n- Fix the issue of putting
+    a warning string \"Adding null Transform to TransformAccessArray will result
+    in degraded performance.\" (DANB-931)\n- Fixed misaligned text in 2D Animation
+    preferences (DANB-879)\n- Fixed blurry icons in Sprite Library Editor. (DANB-842)\n-
+    Fixed unselectable pivot dropdown in skinning editor. (DANB-956)\n- Fixed incorrect
+    scrollbars when adding a large number of categories to sprite library. (DANB-895)\n-
+    Fixed blurry Sprite Library asset icons in Project window. (DANB-901)\n- Fixed
+    wrong USS syntax."}'
   assetStore:
     productId: 
-  fingerprint: 53bd21164c9caf4b4a6656d91a22d3ee19d17a42
+  fingerprint: 81ad133dbdf13da9a686af329d3a20b84565fd89
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 10.2.0
@@ -335,7 +341,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 9.1.0
+    version: 9.1.1
   - name: com.unity.burst
     version: 1.8.21
   - name: com.unity.mathematics
@@ -532,7 +538,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 9.1.0
+    version: 9.1.1
   - name: com.unity.burst
     version: 1.8.21
   - name: com.unity.mathematics
@@ -803,7 +809,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 9.1.0
+    version: 9.1.1
   - name: com.unity.burst
     version: 1.8.21
   - name: com.unity.mathematics
@@ -957,12 +963,12 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 2019.2.0a1
-- packageId: com.unity.2d.tilemap.extras@4.3.0
+- packageId: com.unity.2d.tilemap.extras@4.3.1
   testable: 0
   isDirectDependency: 1
-  version: 4.3.0
+  version: 4.3.1
   source: 1
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.tilemap.extras@eefc9f6533f8
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.tilemap.extras@b9e908ce61f4
   assetPath: Packages/com.unity.2d.tilemap.extras
   name: com.unity.2d.tilemap.extras
   displayName: 2D Tilemap Extras
@@ -1076,13 +1082,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638774696076300000
+  datePublishedTicks: 638840327765510000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@4.3/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 94a6127c9283f843ec1c9482222d58cde9b291e9
+    revision: 1e30f3ce6435ad72ffdd79c887034988b10b080b
     path: 
   unityLifecycle:
     version: 4.3.0
@@ -1095,20 +1101,391 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n\n- [AutoTile] Add AutoTile to Table of
-    Contents\n- [AutoTile] Add warning when loading an asset which is not an AutoTileTemplate
-    when loading an AutoTileTemplate\n- [AutoTileEditor] Set better limits for Texture
-    Scale depending on size of original Texture\n- [AutoTileEditor] Save set Texture
-    Scale\n- [RuleTileEditor] Set expansion limits for TilingRule to a maximum of
-    10\n- [RuleTileEditor] Set default properties to TilingRule when adding a new
-    TilingRule\n- [Editor] Set an upper limit of 1000 for editable collection sizes"}'
+  upmReserved: '{"changelog":"### Fixed\n\n- [AutoTileEditor] Only clear entries
+    for current Texture when loading an AutoTileTemplate for the selected Texture\n-
+    [AutoTileEditor] Improve duplication checks for entries across multiple Textures"}'
   assetStore:
     productId: 
-  fingerprint: eefc9f6533f8872d0ba5aef24ef69a5698b05bed
+  fingerprint: b9e908ce61f443143c33adadfc68e2ada28418f7
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 4.3.0
     minimumUnityVersion: 6000.1.0a9
+- packageId: com.unity.ads@4.4.2
+  testable: 0
+  isDirectDependency: 1
+  version: 4.4.2
+  source: 1
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.ads@a7b997f68a1d
+  assetPath: Packages/com.unity.ads
+  name: com.unity.ads
+  displayName: Advertisement Legacy
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: "Connect your game to the Unity Ads Network for iOS and Android to
+    quickly and effectively monetize your games.\n\nNOTE: Unity has joined forces
+    with ironSource and recommends using Unity LevelPlay for ad mediation (instead
+    of this package). \n\nThis package will still be supported but no longer updated.
+    To install Unity LevelPlay, use the Ads Mediation package (available below) or
+    the LevelPlay plugin-in at https://developers.is.com/ironsource-mobile/unity/unity-plugin/.\n\nSupported
+    platforms:\n- Android\n- iOS\n"
+  errors: []
+  versions:
+    all:
+    - 0.0.3
+    - 0.0.4
+    - 0.0.5
+    - 0.0.6
+    - 0.0.7
+    - 0.0.8
+    - 0.0.10
+    - 0.0.11
+    - 0.0.12
+    - 0.0.13
+    - 0.0.14
+    - 0.0.15
+    - 0.0.16
+    - 2.0.0
+    - 2.0.3
+    - 2.0.4
+    - 2.0.7
+    - 2.0.8
+    - 2.3.1
+    - 2.3.2
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.1.1
+    - 3.2.0
+    - 3.3.0
+    - 3.3.1
+    - 3.4.0
+    - 3.4.1
+    - 3.4.2
+    - 3.4.4
+    - 3.4.5
+    - 3.4.7
+    - 3.4.9
+    - 3.5.0
+    - 3.5.2
+    - 3.6.1
+    - 3.7.0
+    - 3.7.1
+    - 3.7.3
+    - 3.7.5
+    - 4.0.0
+    - 4.0.1
+    - 4.1.0
+    - 4.2.1
+    - 4.3.0
+    - 4.4.1
+    - 4.4.2
+    - 4.12.0
+    compatible:
+    - 4.4.2
+    - 4.12.0
+    recommended: 4.12.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords:
+  - ads
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638161229410000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ads@4.4/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/unity-ads-sdk.git
+    revision: 532b2db792ae728eedcc825080876b4e2c5f8544
+    path: 
+  unityLifecycle:
+    version: 4.4.2
+    nextVersion: 
+    recommendedVersion: 4.12.0
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"## **Unity**\n - Remove redirect pop-ups directing
+    users to Unity Mediation.\n## **Android**\n### **Bugfix**\n- Fixed a NullPointerException
+    when Application Context is null for cached directory file path.","gameService":{"groupName":"Monetization","groupIndex":4,"configurePath":"Project/Services/Ads","genericDashboardUrl":"https://unityads.unity3d.com/help/index","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/monetization/about","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"},"supportedPlatforms":["Android","iOS"]}'
+  assetStore:
+    productId: 
+  fingerprint: a7b997f68a1d40387ca4d33fc75578709c140a37
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 4.4.2
+    minimumUnityVersion: 2018.4.18f1
+- packageId: com.unity.ai.navigation@2.0.7
+  testable: 0
+  isDirectDependency: 1
+  version: 2.0.7
+  source: 1
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.ai.navigation@39ae74efb85f
+  assetPath: Packages/com.unity.ai.navigation
+  name: com.unity.ai.navigation
+  displayName: AI Navigation
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The AI Navigation package contains high-level components that allow
+    you to use navmeshes to incorporate navigation and pathfinding in your game.
+    With this package installed you can build and use navmeshes at runtime and at
+    edit time, create dynamic obstacles, and use links to allow specific actions
+    (like jumping) as your characters navigate between navmeshes.
+  errors: []
+  versions:
+    all:
+    - 1.0.0-exp.2
+    - 1.0.0-exp.3
+    - 1.0.0-exp.4
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.1
+    - 1.1.3
+    - 1.1.4
+    - 1.1.5
+    - 1.1.6
+    - 2.0.0-pre.3
+    - 2.0.0-pre.4
+    - 2.0.0
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    - 2.0.7
+    - 2.0.8
+    compatible:
+    - 2.0.7
+    - 2.0.8
+    recommended: 2.0.8
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ai
+    version: 1.0.0
+  keywords:
+  - carving
+  - mesh
+  - navigation
+  - navmesh
+  - NavMesh
+  - navmesh agent
+  - navmesh link
+  - navmeshlink
+  - navmesh modifier
+  - navmeshmodifier
+  - navmesh modifier volume
+  - navmeshmodifiervolume
+  - navmesh obstacle
+  - navmesh surface
+  - navmeshsurface
+  - offmesh link
+  - off-mesh link
+  - pathfinding
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638797994194330000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
+    revision: f9335c44bc8104d2271e2a5c17c1829670fd7ca6
+    path: 
+  unityLifecycle:
+    version: 2.0.7
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n* The minimum supported editor version
+    is Unity 6 LTS. Compatibility with Unity 2023.2 is no longer guaranteed going
+    forward.\n\n### Fixed\n* Baking NavMeshSurface no longer fails when the game
+    object name has invalid file name characters."}'
+  assetStore:
+    productId: 
+  fingerprint: 39ae74efb85f9b44dc389774fc59c2ce4a8aa3b6
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.7
+    minimumUnityVersion: 6000.0.0a1
+- packageId: com.unity.analytics@3.8.1
+  testable: 0
+  isDirectDependency: 1
+  version: 3.8.1
+  source: 1
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.analytics@6cc66d58ac08
+  assetPath: Packages/com.unity.analytics
+  name: com.unity.analytics
+  displayName: Analytics Library
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: The Unity Analytics Library contains the Analytics Event Tracker component,
+    the Data Privacy plug-in, and the Standard Events API.
+  errors: []
+  versions:
+    all:
+    - 0.0.3
+    - 0.0.4
+    - 0.0.5
+    - 0.0.7
+    - 0.0.8
+    - 0.0.9
+    - 0.0.10
+    - 0.0.11
+    - 0.0.12
+    - 0.0.13
+    - 0.0.14
+    - 0.0.15
+    - 0.0.16
+    - 0.0.17
+    - 0.0.19
+    - 2.0.5
+    - 2.0.11
+    - 2.0.13
+    - 2.0.14
+    - 2.0.15
+    - 2.0.16
+    - 3.0.5
+    - 3.0.9
+    - 3.1.1
+    - 3.2.0
+    - 3.2.2
+    - 3.2.3
+    - 3.3.0
+    - 3.3.2-preview
+    - 3.3.2
+    - 3.3.4
+    - 3.3.5
+    - 3.4.0
+    - 3.5.3
+    - 3.6.11
+    - 3.6.12
+    - 3.7.1
+    - 3.8.1
+    compatible:
+    - 3.8.1
+    recommended: 3.8.1
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.services.analytics
+    version: 1.0.4
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.services.analytics
+    version: 6.0.2
+  - name: com.unity.services.core
+    version: 1.14.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - analytics
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637789683740000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.analytics.git
+    revision: 5ed31de2d0dd150fe8c907e98fc467da73b4b978
+    path: 
+  unityLifecycle:
+    version: 3.8.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 6cc66d58ac08950316d3b86a26c92187aca1ddb0
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 3.8.1
+    minimumUnityVersion: 2019.3.0a1
 - packageId: com.unity.collab-proxy@2.8.2
   testable: 0
   isDirectDependency: 1
@@ -1737,6 +2114,199 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 6000.0.0a1
+- packageId: com.unity.purchasing@4.12.2
+  testable: 0
+  isDirectDependency: 1
+  version: 4.12.2
+  source: 1
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.purchasing@649c6c7b3b1b
+  assetPath: Packages/com.unity.purchasing
+  name: com.unity.purchasing
+  displayName: In App Purchasing
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: "IMPORTANT UPGRADE NOTES:\n\nIf updating from Unity IAP (com.unity.purchasing
+    + the Asset Store plugin) versions 2.x to version 3.x, complete the following
+    actions in order to resolve compilation errors:\n 1. Move IAPProductCatalog.json
+    and BillingMode.json\n\tFROM: Assets/Plugins/UnityPurchasing/Resources/\n\tTO:
+    Assets/Resources/.\n 2. Move AppleTangle.cs and GooglePlayTangle.cs\n\tFROM:
+    Assets/Plugins/UnityPurchasing/generated\n\tTO: Assets/Scripts/UnityPurchasing/generated.\n
+    3. Remove all remaining Asset Store plugin folders and files in Assets/Plugins/UnityPurchasing
+    from your project.\n\nPACKAGE DESCRIPTION:\n\nWith Unity IAP, setting up in-app
+    purchases for your game across multiple app stores has never been easier.\n\nThis
+    package provides:\n\n \u25AA One common API to access all stores for free so
+    you can fully understand and optimize your in-game economy\n \u25AA Automatic
+    coupling with Unity Analytics to enable monitoring and decision-making based
+    on trends in your revenue and purchase data across multiple platforms\n \u25AA
+    Support for iOS, Mac, tvOS, Google Play, Windows, and Amazon app stores(*).\n
+    \u25AA Support to work with the Unity Distribution Portal to synchronize catalogs
+    and transactions with other app stores\n \u25AA Client-side receipt validation
+    for Apple App Store and Google Play\n\nAfter installing this package, open the
+    Services Window to enable In-App Purchasing to use these features."
+  errors: []
+  versions:
+    all:
+    - 0.0.3
+    - 0.0.4
+    - 0.0.5
+    - 0.0.6
+    - 0.0.7
+    - 0.0.8
+    - 0.0.9
+    - 0.0.10
+    - 0.0.11
+    - 0.0.12
+    - 0.0.13
+    - 0.0.14
+    - 0.0.15
+    - 0.0.16
+    - 0.0.17
+    - 0.0.18
+    - 0.0.19
+    - 2.0.0
+    - 2.0.1
+    - 2.0.3
+    - 2.0.5
+    - 2.0.6
+    - 2.1.0
+    - 2.1.1
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 3.0.0-pre.5
+    - 3.0.0-pre.6
+    - 3.0.1
+    - 3.0.2
+    - 3.1.0
+    - 3.2.1
+    - 3.2.2
+    - 3.2.3
+    - 4.0.0
+    - 4.0.3
+    - 4.1.0
+    - 4.1.1
+    - 4.1.2
+    - 4.1.3
+    - 4.1.4
+    - 4.1.5
+    - 4.2.0-pre.1
+    - 4.2.0-pre.2
+    - 4.2.1
+    - 4.3.0
+    - 4.4.0
+    - 4.4.1
+    - 4.5.0
+    - 4.5.1
+    - 4.5.2
+    - 4.6.0
+    - 4.7.0
+    - 4.8.0
+    - 4.9.2
+    - 4.9.3
+    - 4.9.4
+    - 4.10.0
+    - 4.11.0
+    - 4.12.0
+    - 4.12.1-pre.1
+    - 4.12.1-pre.3
+    - 4.12.1-pre.4
+    - 4.12.1
+    - 4.12.2
+    - 5.0.0-pre.1
+    - 5.0.0-pre.3
+    - 5.0.0-pre.4
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    compatible:
+    - 4.12.2
+    - 5.0.0-pre.1
+    - 5.0.0-pre.3
+    - 5.0.0-pre.4
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    recommended: 5.0.0-pre.7
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.12.5
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.14.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords:
+  - purchasing
+  - iap
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638568999980000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.purchasing@4.12/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.purchasing.git
+    revision: c838a7aeadc3894237ebf677be7d5d7d197e1e4d
+    path: 
+  unityLifecycle:
+    version: 4.12.2
+    nextVersion: 5.0.0-pre.3
+    recommendedVersion: 5.0.0-pre.6
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- GooglePlay - Fixed `Product.receipt`''s
+    `price_amount_micros` returning a string instead of a long.","gameService":{"groupName":"Monetize","groupIndex":4,"configurePath":"Project/Services/In-App
+    Purchasing","genericDashboardUrl":"https://dashboard.unity3d.com/","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/analytics/v2/dashboards/revenue","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"},"supportedPlatforms":["Android","iOS"]}'
+  assetStore:
+    productId: 
+  fingerprint: 649c6c7b3b1b6277839041f4987c0a1e66176678
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 4.12.2
+    minimumUnityVersion: 2020.3.0a1
 - packageId: com.unity.render-pipelines.universal@17.1.0
   testable: 0
   isDirectDependency: 1
@@ -2543,6 +3113,124 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.9.6
     minimumUnityVersion: 2021.3.0a1
+- packageId: com.unity.xr.legacyinputhelpers@2.1.12
+  testable: 0
+  isDirectDependency: 1
+  version: 2.1.12
+  source: 1
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.xr.legacyinputhelpers@b7579e86f3b4
+  assetPath: Packages/com.unity.xr.legacyinputhelpers
+  name: com.unity.xr.legacyinputhelpers
+  displayName: XR Legacy Input Helpers
+  author:
+    name: 
+    email: 
+    url: 
+  category: XR
+  type: 
+  description: This package includes the tracked pose driver for the legacy input
+    system, the XR Bindings Seeding Tool and 3Dof Arm Model support for the Tracked
+    Pose Driver. The Tracked Pose Driver is a behavior that enables GameObjects to
+    track input devices, the XR Bindings Seeding Tool adds a menu item under the
+    'Assets' menu which populates the Input Asset with Unity's crossplatform Input
+    Bindings
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.3.1
+    - 1.3.2
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.11
+    - 2.0.1
+    - 2.0.2
+    - 2.0.4
+    - 2.0.6
+    - 2.0.8
+    - 2.1.1
+    - 2.1.2
+    - 2.1.3
+    - 2.1.4
+    - 2.1.6
+    - 2.1.7
+    - 2.1.8
+    - 2.1.9
+    - 2.1.10
+    - 2.1.11
+    - 2.1.12
+    compatible:
+    - 2.1.12
+    recommended: 2.1.12
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  keywords:
+  - TPD
+  - Tracked Pose Driver
+  - XR
+  - Input
+  - Helpers
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638738251595540000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.legacyinputhelpers@2.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.legacyinputhelpers.git
+    revision: 7750ba101d791f0c673ae87cd654d1ac84f87f24
+    path: 
+  unityLifecycle:
+    version: 2.1.12
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fixed camera projection type when converting
+    an existing camera to an **XR Rig** to ensure resulting camera is not set to
+    orthographic ([XRLIH-5](https://issuetracker.unity3d.com/product/unity/issues/guid/XRLIH-5))."}'
+  assetStore:
+    productId: 
+  fingerprint: b7579e86f3b456c909fda6b875fba7ab1eeb1322
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.1.12
+    minimumUnityVersion: 2019.4.0a1
 - packageId: com.unity.modules.accessibility@1.0.0
   testable: 0
   isDirectDependency: 1
@@ -5767,12 +6455,231 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
     minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.2d.common@9.1.0
+- packageId: com.unity.services.analytics@6.0.2
   testable: 0
   isDirectDependency: 0
-  version: 9.1.0
+  version: 6.0.2
   source: 1
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.common@2df623fe8b00
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.services.analytics@6629cba2f5e7
+  assetPath: Packages/com.unity.services.analytics
+  name: com.unity.services.analytics
+  displayName: Analytics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Unity Analytics package automatically collects core events and
+    user properties when someone uses your game or application, and enables you to
+    track specific in-game actions your user performs by defining custom events.
+    The data collected from this package is surfaced in the Unity dashboard where
+    you can use it to gather user insights, segment your player base and make informed
+    decisions around the optimization of your game.
+  errors: []
+  versions:
+    all:
+    - 1.0.3
+    - 1.0.4
+    - 1.0.5
+    - 2.0.7-pre.4
+    - 2.0.7-pre.6
+    - 2.0.7-pre.7
+    - 3.0.0-pre.2
+    - 3.0.0-pre.3
+    - 3.0.0-pre.4
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    - 4.0.0
+    - 4.0.1
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.4.0
+    - 4.4.1
+    - 4.4.2
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.1.0
+    - 5.1.1
+    - 6.0.1
+    - 6.0.2
+    - 6.0.3
+    compatible:
+    - 6.0.2
+    - 6.0.3
+    recommended: 6.0.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.12.4
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.services.core
+    version: 1.14.0
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 3.2.1
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638635624479490000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.services.analytics@6.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/operate-services-sdk.git
+    revision: 02faa03349f9effb35a95ba25843dbef32bb37e8
+    path: 
+  unityLifecycle:
+    version: 6.0.2
+    nextVersion: 
+    recommendedVersion: 6.0.1
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n\n* Go To Dashboard link in Package Manager
+    in 2022 and newer editor versions now leads to the correct landing page instead
+    of an unrelated error page\n* Numerous public API elements that were missing
+    XmlDoc comments now have them\n* Setting ExternalUserId before enabling the SDK
+    for the first time now correctly records a newPlayer event if it differs from
+    the last seen user ID\n* Changing ExternalUserId while data collection is enabled
+    now correctly starts a new session and records start-up events\n* Changing ExternalUserId
+    while data collection is disabled now correctly records start-up events when
+    it is (re)enabled","gameService":{"configurePath":"Project/Services/Analytics
+    - Gaming Services","genericDashboardUrl":"https://cloud.unity.com/analytics","projectDashboardUrl":"https://cloud.unity.com/home/organizations/{0}/projects/{1}/environments/default/analytics/v2/about","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"},"supportedPlatforms":["Android","iOS","Linux","Mac","PC","Windows
+    8.1 Universal","Windows 10 Universal","WebGL"]}'
+  assetStore:
+    productId: 
+  fingerprint: 6629cba2f5e7ff255833c417c8610bd06c505241
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 6.0.2
+    minimumUnityVersion: 2021.3.0a1
+- packageId: com.unity.mathematics@1.3.2
+  testable: 0
+  isDirectDependency: 0
+  version: 1.3.2
+  source: 1
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.mathematics@8017b507cc74
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.3.1
+    - 1.3.2
+    compatible:
+    - 1.3.2
+    recommended: 1.3.2
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638409134840000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: 1695a8503482a3131be78cc26308a93f82c05b04
+    path: 
+  unityLifecycle:
+    version: 1.3.2
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n* Fixed `math.hash` crash when using IL2CPP
+    builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
+    and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
+    Updated minimum editor version to 2021.3"}'
+  assetStore:
+    productId: 
+  fingerprint: 8017b507cc74bf0a1dd14b18aa860569f807314d
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.3.2
+    minimumUnityVersion: 2021.3.0a1
+- packageId: com.unity.2d.common@9.1.1
+  testable: 0
+  isDirectDependency: 0
+  version: 9.1.1
+  source: 1
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.common@bc041c6e0d0d
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -5905,13 +6812,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638774696088020000
+  datePublishedTicks: 638856773121490000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@9.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 94a6127c9283f843ec1c9482222d58cde9b291e9
+    revision: 383370d5a0ac5360369e71e96aa41ade8ed5c1b5
     path: 
   unityLifecycle:
     version: 9.1.0
@@ -5924,105 +6831,16 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n- Update minimum Unity version.\n\n###
-    Fixed\n- DANB-811 Fix blurry Sprite Atlas Sample variant scene sprites\n- DANB-794
-    Fixed case where editing the Closed and Open Sprite Shapes is choppy"}'
+  upmReserved: '{"changelog":"### Fixed\n- DANB-796 Fixed case where 2D PSD Importer
+    generates mipmaps when \"Generate Mip Maps\" is disabled\n- DANB-879 Fixed misaligned
+    text in 2D Animation preferences"}'
   assetStore:
     productId: 
-  fingerprint: 2df623fe8b00fbc13c20621a43a73b66163de860
+  fingerprint: bc041c6e0d0d69f1195446076eff5ef3189d3e92
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 9.1.0
     minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.mathematics@1.3.2
-  testable: 0
-  isDirectDependency: 0
-  version: 1.3.2
-  source: 1
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.mathematics@8017b507cc74
-  assetPath: Packages/com.unity.mathematics
-  name: com.unity.mathematics
-  displayName: Mathematics
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: assets
-  description: Unity's C# SIMD math library providing vector types and math functions
-    with a shader like syntax.
-  errors: []
-  versions:
-    all:
-    - 0.0.12-preview.2
-    - 0.0.12-preview.5
-    - 0.0.12-preview.8
-    - 0.0.12-preview.10
-    - 0.0.12-preview.11
-    - 0.0.12-preview.13
-    - 0.0.12-preview.17
-    - 0.0.12-preview.19
-    - 0.0.12-preview.20
-    - 1.0.0-preview.1
-    - 1.0.1
-    - 1.1.0-preview.1
-    - 1.1.0
-    - 1.2.1
-    - 1.2.4
-    - 1.2.5
-    - 1.2.6
-    - 1.3.1
-    - 1.3.2
-    compatible:
-    - 1.3.2
-    recommended: 1.3.2
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638409134840000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: 1695a8503482a3131be78cc26308a93f82c05b04
-    path: 
-  unityLifecycle:
-    version: 1.3.2
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Fixed\n* Fixed `math.hash` crash when using IL2CPP
-    builds on Arm 32 bit devices.\n* Fixed obsolete method usage warnings for `MatrixDrawer.CanCacheInspectorGUI`
-    and `PrimitiveVectorDrawer.CanCacheInspectorGUI` in UNITY_2023_2_OR_NEWER.\n*
-    Updated minimum editor version to 2021.3"}'
-  assetStore:
-    productId: 
-  fingerprint: 8017b507cc74bf0a1dd14b18aa860569f807314d
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 1.3.2
-    minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.collections@2.5.1
   testable: 0
   isDirectDependency: 0

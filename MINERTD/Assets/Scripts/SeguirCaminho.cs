@@ -1,135 +1,142 @@
 using UnityEngine;
-using System.Collections;
+using System.Threading;
+using System;
+using System.Collections.Generic;
 
 public class SeguirCaminho : MonoBehaviour
 {
-    private enum EstadoMinerador
-    {
-        IndoParaMina,
-        Minerando,
-        VoltandoParaBase,
-        DepositandoRecursos,
-        Ocioso
-    }
+    private enum EstadoMinerador { Ocioso_Parado, Andando, Minerando, Depositando }
+
+    [Header("Configurações do Minerador")]
+    public float velocidade = 2f;
+    public int capacidadeDaBolsa = 15;
+    public int danoPorHit = 5;
+    public int mineriosPorHit = 5;
+    public int tempoPorHitMs = 1000;
 
     private Transform localDeMineracao;
     private Transform localDaBase;
-
-    [Header("Configurações")]
-    public float velocidade = 2f;
-    public float tempoDeMineracao = 3f;
-
-    [Header("Sprites Especiais (Opcional)")]
-    public Sprite spriteMinerando;
-
-    private SpriteRenderer spriteRenderer;
+    private RecursoMineravel recursoAlvo;
     private Animator animator;
+    private GameManager gameManager;
     private EstadoMinerador estadoAtual;
     private Transform alvoAtual;
+    private int mineriosNaBolsa = 0;
+    private readonly Queue<Action> acoesThreadPrincipal = new Queue<Action>();
 
     void Awake()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
-        if (animator == null || spriteRenderer == null)
+        gameManager = FindFirstObjectByType<GameManager>(); 
+        if (animator == null || gameManager == null)
         {
-            Debug.LogError("ERRO: Componente Animator ou SpriteRenderer não encontrado!");
+            Debug.LogError("ERRO: Componente Animator ou GameManager não foi encontrado na cena!");
             enabled = false;
         }
-        estadoAtual = EstadoMinerador.Ocioso;
+        estadoAtual = EstadoMinerador.Ocioso_Parado;
+    }
+
+    public void AplicarUpgrades(float bonusVelocidade, float bonusVida)
+    {
+        this.velocidade += bonusVelocidade;
+        Saude saudeDoMinerador = GetComponent<Saude>();
+        if (saudeDoMinerador != null)
+        {
+            Debug.Log($"Aplicando upgrade de vida em {gameObject.name}. Vida Máxima ANTES: {saudeDoMinerador.vidaMaxima}");
+            saudeDoMinerador.vidaMaxima += bonusVida;
+            Debug.Log($"Vida Máxima DEPOIS: {saudeDoMinerador.vidaMaxima}");
+            saudeDoMinerador.ReceberDano(-bonusVida);
+        }
     }
 
     public void Inicializar(Transform mina, Transform baseTransform)
     {
         this.localDeMineracao = mina;
         this.localDaBase = baseTransform;
-
-        if (localDeMineracao == null || localDaBase == null)
-        {
-            Debug.LogError("ERRO: O GameManager não passou um Local de Mineração ou Base válido!");
-            enabled = false;
-            return;
-        }
-
-        MudarEstado(EstadoMinerador.IndoParaMina);
+        this.recursoAlvo = mina.GetComponent<RecursoMineravel>();
+        alvoAtual = localDeMineracao;
+        MudarEstado(EstadoMinerador.Andando);
     }
 
     void Update()
     {
-        float velocidadeAtual = 0f;
-        if (alvoAtual != null && Vector2.Distance(transform.position, alvoAtual.position) > 0.01f)
+        lock (acoesThreadPrincipal)
         {
-            velocidadeAtual = velocidade;
+            while (acoesThreadPrincipal.Count > 0) { acoesThreadPrincipal.Dequeue().Invoke(); }
         }
-        
-        animator.SetFloat("Velocidade", velocidadeAtual);
-
-        if (estadoAtual == EstadoMinerador.Minerando || estadoAtual == EstadoMinerador.DepositandoRecursos) return;
-
         if (alvoAtual != null)
         {
-            transform.position = Vector2.MoveTowards(transform.position, alvoAtual.position, velocidade * Time.deltaTime);
-
             if (Vector2.Distance(transform.position, alvoAtual.position) < 0.1f)
             {
-                if (estadoAtual == EstadoMinerador.IndoParaMina)
+                transform.position = alvoAtual.position;
+                EstadoMinerador proximoEstado = EstadoMinerador.Ocioso_Parado;
+                if(estadoAtual == EstadoMinerador.Andando)
                 {
-                    MudarEstado(EstadoMinerador.Minerando);
+                    if(transform.position == localDeMineracao.position) { proximoEstado = EstadoMinerador.Minerando; }
+                    else if(transform.position == localDaBase.position) { proximoEstado = EstadoMinerador.Depositando; }
                 }
-                else if (estadoAtual == EstadoMinerador.VoltandoParaBase)
-                {
-                    MudarEstado(EstadoMinerador.DepositandoRecursos);
-                }
+                alvoAtual = null;
+                MudarEstado(proximoEstado);
             }
+            else
+            {
+                transform.position = Vector2.MoveTowards(transform.position, alvoAtual.position, velocidade * Time.deltaTime);
+                GetComponent<SpriteRenderer>().flipX = (alvoAtual.position.x < transform.position.x);
+            }
+        }
+        if(estadoAtual == EstadoMinerador.Minerando && recursoAlvo != null)
+        {
+            recursoAlvo.AtualizarVisual();
         }
     }
 
     void MudarEstado(EstadoMinerador novoEstado)
     {
+        Debug.Log($"MUDANDO ESTADO de '{estadoAtual}' para '{novoEstado}' no frame: {Time.frameCount}");
         estadoAtual = novoEstado;
-
+        int estadoAnimacao = 0;
+        if (novoEstado == EstadoMinerador.Andando) estadoAnimacao = 1;
+        if (novoEstado == EstadoMinerador.Minerando) estadoAnimacao = 2;
+        Debug.Log($"Enviando para o Animator: SetInteger('Estado', {estadoAnimacao})");
+        animator.SetInteger("Estado", estadoAnimacao);
         switch (estadoAtual)
         {
-            case EstadoMinerador.IndoParaMina:
-                alvoAtual = localDeMineracao;
-                // --- ADICIONADO: Inverte o sprite com base na posição do alvo ---
-                spriteRenderer.flipX = (alvoAtual.position.x < transform.position.x);
-                break;
-
             case EstadoMinerador.Minerando:
-                alvoAtual = null;
-                GetComponent<SpriteRenderer>().sprite = spriteMinerando;
-                StartCoroutine(ExecutarMineracao());
+                Thread threadDeMineracao = new Thread(LoopDeMineracao);
+                threadDeMineracao.Start();
                 break;
-
-            case EstadoMinerador.VoltandoParaBase:
-                alvoAtual = localDaBase;
-                // --- ADICIONADO: Inverte o sprite com base na posição do alvo ---
-                spriteRenderer.flipX = (alvoAtual.position.x < transform.position.x);
+            case EstadoMinerador.Depositando:
+                if (mineriosNaBolsa > 0) { gameManager.DepositarMoedas(mineriosNaBolsa); mineriosNaBolsa = 0; }
+                Invoke("IniciarNovoCiclo", 1f);
                 break;
-
-            case EstadoMinerador.DepositandoRecursos:
-                alvoAtual = null;
-                StartCoroutine(IniciarNovoCiclo());
-                break;
-                
-            case EstadoMinerador.Ocioso:
-                 alvoAtual = null;
-                 break;
         }
     }
 
-    IEnumerator ExecutarMineracao()
+    private void LoopDeMineracao()
     {
-        yield return new WaitForSeconds(tempoDeMineracao);
-        MudarEstado(EstadoMinerador.VoltandoParaBase);
+        if (recursoAlvo == null || recursoAlvo.EstaEsgotado)
+        {
+            EnfileirarAcao(() => { alvoAtual = localDaBase; MudarEstado(EstadoMinerador.Andando); });
+            return;
+        }
+        try
+        {
+            recursoAlvo.VagasDeMineracao.Wait();
+            while (mineriosNaBolsa < capacidadeDaBolsa && !recursoAlvo.EstaEsgotado)
+            {
+                Debug.Log("THREAD: Dando um 'hit' no minério e esperando " + tempoPorHitMs + "ms.");
+                Thread.Sleep(tempoPorHitMs);
+                if (!recursoAlvo.EstaEsgotado) { recursoAlvo.ReceberDanoDeMineracao(danoPorHit); mineriosNaBolsa += mineriosPorHit; }
+            }
+        }
+        finally
+        {
+            recursoAlvo.VagasDeMineracao.Release();
+        }
+        Debug.Log("THREAD: Mineração concluída. Enfileirando ordem para voltar.");
+        EnfileirarAcao(() => { alvoAtual = localDaBase; MudarEstado(EstadoMinerador.Andando); });
     }
-
-    IEnumerator IniciarNovoCiclo()
-    {
-        // Ao voltar para a base, o Animator deve ir para o estado Idle
-        // A velocidade já será 0, então a transição deve ocorrer naturalmente.
-        yield return new WaitForSeconds(1f);
-        MudarEstado(EstadoMinerador.IndoParaMina);
-    }
+    
+    private void EnfileirarAcao(Action acao) { lock (acoesThreadPrincipal) { acoesThreadPrincipal.Enqueue(acao); } }
+    private void IniciarNovoCiclo() { alvoAtual = localDeMineracao; MudarEstado(EstadoMinerador.Andando); }
 }

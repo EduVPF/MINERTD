@@ -9,13 +9,13 @@
     "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
-    "com.unity.2d.animation@10.2.0": {
+    "com.unity.2d.animation@10.2.1": {
       "name": "com.unity.2d.animation",
       "displayName": "2D Animation",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.animation@53bd21164c9c",
-      "fingerprint": "53bd21164c9caf4b4a6656d91a22d3ee19d17a42",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.animation@81ad133dbdf1",
+      "fingerprint": "81ad133dbdf13da9a686af329d3a20b84565fd89",
       "editorCompatibility": "6000.0.0a1",
-      "version": "10.2.0",
+      "version": "10.2.1",
       "source": "registry",
       "testable": false
     },
@@ -69,13 +69,43 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.2d.tilemap.extras@4.3.0": {
+    "com.unity.2d.tilemap.extras@4.3.1": {
       "name": "com.unity.2d.tilemap.extras",
       "displayName": "2D Tilemap Extras",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.tilemap.extras@eefc9f6533f8",
-      "fingerprint": "eefc9f6533f8872d0ba5aef24ef69a5698b05bed",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.tilemap.extras@b9e908ce61f4",
+      "fingerprint": "b9e908ce61f443143c33adadfc68e2ada28418f7",
       "editorCompatibility": "6000.1.0a9",
-      "version": "4.3.0",
+      "version": "4.3.1",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.ads@4.4.2": {
+      "name": "com.unity.ads",
+      "displayName": "Advertisement Legacy",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.ads@a7b997f68a1d",
+      "fingerprint": "a7b997f68a1d40387ca4d33fc75578709c140a37",
+      "editorCompatibility": "2018.4.18f1",
+      "version": "4.4.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.ai.navigation@2.0.7": {
+      "name": "com.unity.ai.navigation",
+      "displayName": "AI Navigation",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.ai.navigation@39ae74efb85f",
+      "fingerprint": "39ae74efb85f9b44dc389774fc59c2ce4a8aa3b6",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "2.0.7",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.analytics@3.8.1": {
+      "name": "com.unity.analytics",
+      "displayName": "Analytics Library",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.analytics@6cc66d58ac08",
+      "fingerprint": "6cc66d58ac08950316d3b86a26c92187aca1ddb0",
+      "editorCompatibility": "2019.3.0a1",
+      "version": "3.8.1",
       "source": "registry",
       "testable": false
     },
@@ -127,6 +157,16 @@
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.0",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.purchasing@4.12.2": {
+      "name": "com.unity.purchasing",
+      "displayName": "In App Purchasing",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.purchasing@649c6c7b3b1b",
+      "fingerprint": "649c6c7b3b1b6277839041f4987c0a1e66176678",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "4.12.2",
+      "source": "registry",
       "testable": false
     },
     "com.unity.render-pipelines.universal@17.1.0": {
@@ -186,6 +226,16 @@
       "fingerprint": "7dcdc439b230145cec4202cd6ebad135736e0c14",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.9.6",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.xr.legacyinputhelpers@2.1.12": {
+      "name": "com.unity.xr.legacyinputhelpers",
+      "displayName": "XR Legacy Input Helpers",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.xr.legacyinputhelpers@b7579e86f3b4",
+      "fingerprint": "b7579e86f3b456c909fda6b875fba7ab1eeb1322",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.1.12",
       "source": "registry",
       "testable": false
     },
@@ -521,13 +571,13 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.2d.common@9.1.0": {
-      "name": "com.unity.2d.common",
-      "displayName": "2D Common",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.common@2df623fe8b00",
-      "fingerprint": "2df623fe8b00fbc13c20621a43a73b66163de860",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "9.1.0",
+    "com.unity.services.analytics@6.0.2": {
+      "name": "com.unity.services.analytics",
+      "displayName": "Analytics",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.services.analytics@6629cba2f5e7",
+      "fingerprint": "6629cba2f5e7ff255833c417c8610bd06c505241",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "6.0.2",
       "source": "registry",
       "testable": false
     },
@@ -538,6 +588,16 @@
       "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.3.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.2d.common@9.1.1": {
+      "name": "com.unity.2d.common",
+      "displayName": "2D Common",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.common@bc041c6e0d0d",
+      "fingerprint": "bc041c6e0d0d69f1195446076eff5ef3189d3e92",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "9.1.1",
       "source": "registry",
       "testable": false
     },

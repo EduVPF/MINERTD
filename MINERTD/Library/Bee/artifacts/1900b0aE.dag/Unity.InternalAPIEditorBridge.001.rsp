@@ -375,6 +375,9 @@
 -r:"F:/6000.1.2f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
 -r:"F:/6000.1.2f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"F:/6000.1.2f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+-r:"Library/PackageCache/com.unity.analytics@6cc66d58ac08/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll"
+-r:"Library/PackageCache/com.unity.analytics@6cc66d58ac08/Unity.Analytics.Editor.dll"
+-r:"Library/PackageCache/com.unity.analytics@6cc66d58ac08/Unity.Analytics.Tracker.dll"
 -r:"Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Lib/Editor/log4netPlastic.dll"
 -r:"Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Lib/Editor/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"Library/PackageCache/com.unity.collab-proxy@c854d1f7d97f/Lib/Editor/Unity.Plastic.Newtonsoft.Json.dll"
@@ -402,11 +405,11 @@
 "Library/PackageCache/com.unity.2d.aseprite@85ecd97bb34e/Editor/Common/InternalBridge/ModelPreviewer.cs"
 "Library/PackageCache/com.unity.2d.aseprite@85ecd97bb34e/Editor/Common/InternalBridge/TexturePlatformSettings.cs"
 "Library/PackageCache/com.unity.2d.aseprite@85ecd97bb34e/Editor/Common/InternalBridge/TexturePlatformSettingsHelper.cs"
-"Library/PackageCache/com.unity.2d.common@2df623fe8b00/Editor/InternalBridge/AssemblyInfo.cs"
-"Library/PackageCache/com.unity.2d.common@2df623fe8b00/Editor/InternalBridge/InternalEditorBridge.cs"
-"Library/PackageCache/com.unity.2d.common@2df623fe8b00/Editor/InternalBridge/SpriteDataProviders/SpriteCustomDataProvider.cs"
-"Library/PackageCache/com.unity.2d.common@2df623fe8b00/Editor/InternalBridge/SpriteEditorModuleModeBase.cs"
-"Library/PackageCache/com.unity.2d.common@2df623fe8b00/Editor/InternalBridge/TexturePlatformSettings/TexturePlatformSettings.cs"
+"Library/PackageCache/com.unity.2d.common@bc041c6e0d0d/Editor/InternalBridge/AssemblyInfo.cs"
+"Library/PackageCache/com.unity.2d.common@bc041c6e0d0d/Editor/InternalBridge/InternalEditorBridge.cs"
+"Library/PackageCache/com.unity.2d.common@bc041c6e0d0d/Editor/InternalBridge/SpriteDataProviders/SpriteCustomDataProvider.cs"
+"Library/PackageCache/com.unity.2d.common@bc041c6e0d0d/Editor/InternalBridge/SpriteEditorModuleModeBase.cs"
+"Library/PackageCache/com.unity.2d.common@bc041c6e0d0d/Editor/InternalBridge/TexturePlatformSettings/TexturePlatformSettings.cs"
 -langversion:9.0
 /deterministic
 /optimize+

@@ -1,20 +1,18 @@
 using UnityEngine;
-using UnityEngine.SceneManagement; // Essencial para gerenciar cenas
+using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    // Esta função será chamada pelo botão "Iniciar Jogo"
+    // A única função deste script é carregar a cena do jogo.
     public void IniciarJogo()
     {
-        // Carrega a cena do jogo. Certifique-se de que o nome da cena está correto.
-        // Substitua "NomeDaCenaDoJogo" pelo nome da sua cena principal do jogo.
-        SceneManager.LoadScene("Level1"); 
+        // Lembre-se de que o nome "Level1" deve ser idêntico ao nome do seu arquivo de cena.
+        SceneManager.LoadScene("Level1");
     }
 
-    // Esta função será chamada pelo botão "Sair"
+    // A função de sair do jogo.
     public void SairDoJogo()
     {
-        // Fecha a aplicação. Funciona na versão compilada (build) do jogo.
         Debug.Log("Saindo do jogo...");
         Application.Quit();
     }
