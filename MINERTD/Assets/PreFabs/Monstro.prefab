@@ -86,7 +86,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadeMinima: 1.2
-  velocidadeMaxima: 1.58
+  velocidadeMaxima: 1.5
   dano: 5
   alcanceAtaque: 0.5
   tempoEntreAtaques: 1.5

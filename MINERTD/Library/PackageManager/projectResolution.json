@@ -1,69 +1,69 @@
 {
   "context": {
     "projectPath": "D:/MINERTD/MINERTD/Packages",
-    "unityVersion": "6000.1.2f1"
+    "unityVersion": "6000.1.8f1"
   },
   "inputs": [
     "D:\\MINERTD\\MINERTD\\Packages\\manifest.json",
     "D:\\MINERTD\\MINERTD\\Packages\\packages-lock.json",
-    "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+    "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
-    "com.unity.2d.animation@10.2.1": {
+    "com.unity.2d.animation@11.0.0": {
       "name": "com.unity.2d.animation",
       "displayName": "2D Animation",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.animation@81ad133dbdf1",
-      "fingerprint": "81ad133dbdf13da9a686af329d3a20b84565fd89",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "10.2.1",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.animation@a1db3619cb6f",
+      "fingerprint": "a1db3619cb6fa1e3dfca36970137715fb4bbf194",
+      "editorCompatibility": "6000.1.0a9",
+      "version": "11.0.0",
       "source": "registry",
       "testable": false
     },
-    "com.unity.2d.aseprite@1.2.4": {
+    "com.unity.2d.aseprite@1.2.5": {
       "name": "com.unity.2d.aseprite",
       "displayName": "2D Aseprite Importer",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.aseprite@85ecd97bb34e",
-      "fingerprint": "85ecd97bb34ef7d790218acdd7941ef669c08e9a",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.aseprite@fa26c8d7c7e6",
+      "fingerprint": "fa26c8d7c7e609513dd2a8426aaa4c93bc49c566",
       "editorCompatibility": "6000.1.0a9",
-      "version": "1.2.4",
+      "version": "1.2.5",
       "source": "registry",
       "testable": false
     },
-    "com.unity.2d.psdimporter@10.1.0": {
+    "com.unity.2d.psdimporter@10.1.1": {
       "name": "com.unity.2d.psdimporter",
       "displayName": "2D PSD Importer",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.psdimporter@7cfb89931061",
-      "fingerprint": "7cfb899310610d953ec91c380a5a83dbbc5eabff",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.psdimporter@5684369550c9",
+      "fingerprint": "5684369550c91a52a9754dbe304fc2fc7abc2afe",
       "editorCompatibility": "6000.1.0a9",
-      "version": "10.1.0",
+      "version": "10.1.1",
       "source": "registry",
       "testable": false
     },
     "com.unity.2d.sprite@1.0.0": {
       "name": "com.unity.2d.sprite",
       "displayName": "2D Sprite",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.sprite@8e227b7a8e02",
-      "fingerprint": "8e227b7a8e02901a84d9678f982e6ae0efa3f5bb",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.sprite@5eb30061d420",
+      "fingerprint": "5eb30061d42006925d91d40a6a8fca10bd64bbee",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.2d.spriteshape@10.1.0": {
+    "com.unity.2d.spriteshape@11.0.0": {
       "name": "com.unity.2d.spriteshape",
       "displayName": "2D SpriteShape",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.spriteshape@49c1d1a01890",
-      "fingerprint": "49c1d1a01890c6450aa2753c572ad04566abe2b7",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "10.1.0",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.spriteshape@8dceeebcc959",
+      "fingerprint": "8dceeebcc959180e3ba5d6b20630c7f515ec7c48",
+      "editorCompatibility": "6000.1.0a9",
+      "version": "11.0.0",
       "source": "registry",
       "testable": false
     },
     "com.unity.2d.tilemap@1.0.0": {
       "name": "com.unity.2d.tilemap",
       "displayName": "2D Tilemap Editor",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.tilemap@e08379fa62fd",
-      "fingerprint": "e08379fa62fdfb4468e767be9412e985ee85c45f",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.tilemap@855769f9baae",
+      "fingerprint": "855769f9baae5e646d6af726032246ec4a7c0d19",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
       "source": "builtin",
@@ -79,23 +79,23 @@
       "source": "registry",
       "testable": false
     },
-    "com.unity.ads@4.4.2": {
+    "com.unity.ads@4.12.0": {
       "name": "com.unity.ads",
       "displayName": "Advertisement Legacy",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.ads@a7b997f68a1d",
-      "fingerprint": "a7b997f68a1d40387ca4d33fc75578709c140a37",
-      "editorCompatibility": "2018.4.18f1",
-      "version": "4.4.2",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.ads@3bb3d269d51b",
+      "fingerprint": "3bb3d269d51b1ced8f6f203c98bb025578933edd",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "4.12.0",
       "source": "registry",
       "testable": false
     },
-    "com.unity.ai.navigation@2.0.7": {
+    "com.unity.ai.navigation@2.0.8": {
       "name": "com.unity.ai.navigation",
       "displayName": "AI Navigation",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.ai.navigation@39ae74efb85f",
-      "fingerprint": "39ae74efb85f9b44dc389774fc59c2ce4a8aa3b6",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.ai.navigation@eb5635ad590d",
+      "fingerprint": "eb5635ad590d47cef2a5c920d9475cc222db3f67",
       "editorCompatibility": "6000.0.0a1",
-      "version": "2.0.7",
+      "version": "2.0.8",
       "source": "registry",
       "testable": false
     },
@@ -172,8 +172,8 @@
     "com.unity.render-pipelines.universal@17.1.0": {
       "name": "com.unity.render-pipelines.universal",
       "displayName": "Universal Render Pipeline",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.render-pipelines.universal@5ed031f116da",
-      "fingerprint": "5ed031f116dac3bff00542fc50bf1e411bea60f8",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.render-pipelines.universal@a19b2562c494",
+      "fingerprint": "a19b2562c494b960b09ecf73e9341110b028b2a8",
       "editorCompatibility": "6000.1.0a1",
       "version": "17.1.0",
       "source": "builtin",
@@ -192,40 +192,40 @@
     "com.unity.test-framework@1.5.1": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.test-framework@607a88b8f2d7",
-      "fingerprint": "607a88b8f2d7614281a086a98f027cd069f75d2d",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.test-framework@7056e7f856e9",
+      "fingerprint": "7056e7f856e91f1d294fbe8db0c8fea1ffd9ad5d",
       "editorCompatibility": "2022.3.0a1",
       "version": "1.5.1",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.timeline@1.8.7": {
+    "com.unity.timeline@1.8.8": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.timeline@c58b4ee65782",
-      "fingerprint": "c58b4ee65782ad38338e29f7ee67787cb6998f04",
-      "editorCompatibility": "2019.3.0a1",
-      "version": "1.8.7",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.timeline@fa3a0bab2b90",
+      "fingerprint": "fa3a0bab2b909389f8e6c20d5ff275c9e15ae0a2",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.8.8",
       "source": "registry",
       "testable": false
     },
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.ugui@f55986520ec2",
-      "fingerprint": "f55986520ec2233b4aa5aab4ebcd6626ad87f0ac",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.ugui@57cef44123c7",
+      "fingerprint": "57cef44123c7486b2e2f08dc6535aecf6c34b8ef",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
       "source": "builtin",
       "testable": false
     },
-    "com.unity.visualscripting@1.9.6": {
+    "com.unity.visualscripting@1.9.8": {
       "name": "com.unity.visualscripting",
       "displayName": "Visual Scripting",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.visualscripting@7dcdc439b230",
-      "fingerprint": "7dcdc439b230145cec4202cd6ebad135736e0c14",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.visualscripting@b4d700247d4b",
+      "fingerprint": "b4d700247d4b84b3360e1afeb054b0bdb201fbc7",
       "editorCompatibility": "2021.3.0a1",
-      "version": "1.9.6",
+      "version": "1.9.8",
       "source": "registry",
       "testable": false
     },
@@ -242,7 +242,7 @@
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.accessibility",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.accessibility",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -250,7 +250,7 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ai",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ai",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -258,7 +258,7 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.androidjni",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.androidjni",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -266,7 +266,7 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.animation",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.animation",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -274,7 +274,7 @@
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
       "displayName": "Asset Bundle",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.assetbundle",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.assetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -282,7 +282,7 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.audio",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.audio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -290,7 +290,7 @@
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
       "displayName": "Cloth",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.cloth",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.cloth",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -298,7 +298,7 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.director",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.director",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -306,7 +306,7 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imageconversion",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imageconversion",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -314,7 +314,7 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imgui",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imgui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -322,7 +322,7 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.jsonserialize",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.jsonserialize",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -330,7 +330,7 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.particlesystem",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.particlesystem",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -338,7 +338,7 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -346,7 +346,7 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics2d",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics2d",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -354,7 +354,7 @@
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.screencapture",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.screencapture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -362,7 +362,7 @@
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
       "displayName": "Terrain",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrain",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrain",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -370,7 +370,7 @@
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
       "displayName": "Terrain Physics",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrainphysics",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrainphysics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -378,7 +378,7 @@
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
       "displayName": "Tilemap",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.tilemap",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.tilemap",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -386,7 +386,7 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ui",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ui",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -394,7 +394,7 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.uielements",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.uielements",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -402,7 +402,7 @@
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
       "displayName": "Umbra",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.umbra",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.umbra",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -410,7 +410,7 @@
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
       "displayName": "Unity Analytics",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unityanalytics",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unityanalytics",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -418,7 +418,7 @@
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
       "displayName": "Unity Web Request",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequest",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequest",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -426,7 +426,7 @@
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
       "displayName": "Unity Web Request Asset Bundle",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestassetbundle",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestassetbundle",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -434,7 +434,7 @@
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
       "displayName": "Unity Web Request Audio",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestaudio",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestaudio",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -442,7 +442,7 @@
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
       "displayName": "Unity Web Request Texture",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequesttexture",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequesttexture",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -450,7 +450,7 @@
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
       "displayName": "Unity Web Request WWW",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestwww",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestwww",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -458,7 +458,7 @@
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
       "displayName": "Vehicles",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vehicles",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vehicles",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -466,7 +466,7 @@
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
       "displayName": "Video",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.video",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.video",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -474,7 +474,7 @@
     "com.unity.modules.vr@1.0.0": {
       "name": "com.unity.modules.vr",
       "displayName": "VR",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vr",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -482,7 +482,7 @@
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
       "displayName": "Wind",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.wind",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.wind",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -490,7 +490,7 @@
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
       "displayName": "XR",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.xr",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.xr",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -498,7 +498,7 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.subsystems",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.subsystems",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -506,7 +506,7 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
-      "resolvedPath": "F:\\6000.1.2f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.hierarchycore",
+      "resolvedPath": "F:\\6000.1.8f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.hierarchycore",
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -544,8 +544,8 @@
     "com.unity.render-pipelines.core@17.1.0": {
       "name": "com.unity.render-pipelines.core",
       "displayName": "Scriptable Render Pipeline Core",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.render-pipelines.core@bb00910dd6f7",
-      "fingerprint": "bb00910dd6f70e5998e5c269e31a144e64875601",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.render-pipelines.core@71b4bdac1964",
+      "fingerprint": "71b4bdac1964f74b866160605ee9150cf79ab359",
       "editorCompatibility": "6000.1.0a1",
       "version": "17.1.0",
       "source": "builtin",
@@ -554,8 +554,8 @@
     "com.unity.shadergraph@17.1.0": {
       "name": "com.unity.shadergraph",
       "displayName": "Shader Graph",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.shadergraph@26dc5ae27e7d",
-      "fingerprint": "26dc5ae27e7d8949b4e95045bf189b8733da88ee",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.shadergraph@e5d3455aa133",
+      "fingerprint": "e5d3455aa13376f767ad6bf5f3faab2073877176",
       "editorCompatibility": "6000.1.0a1",
       "version": "17.1.0",
       "source": "builtin",
@@ -564,8 +564,8 @@
     "com.unity.render-pipelines.universal-config@17.0.3": {
       "name": "com.unity.render-pipelines.universal-config",
       "displayName": "Universal Render Pipeline Config",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@6af1487fecff",
-      "fingerprint": "6af1487fecff04dbba58e29eb0f241dfd8592c96",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.render-pipelines.universal-config@8dc1aab4af1d",
+      "fingerprint": "8dc1aab4af1d718781689a36ed5231a35ad1a524",
       "editorCompatibility": "6000.0.0a1",
       "version": "17.0.3",
       "source": "builtin",
@@ -581,6 +581,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.2d.common@10.0.0": {
+      "name": "com.unity.2d.common",
+      "displayName": "2D Common",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.common@f525660c63bc",
+      "fingerprint": "f525660c63bc9f89d4f7c4bac92ea3258a39a0eb",
+      "editorCompatibility": "6000.1.0a9",
+      "version": "10.0.0",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.mathematics@1.3.2": {
       "name": "com.unity.mathematics",
       "displayName": "Mathematics",
@@ -588,16 +598,6 @@
       "fingerprint": "8017b507cc74bf0a1dd14b18aa860569f807314d",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.3.2",
-      "source": "registry",
-      "testable": false
-    },
-    "com.unity.2d.common@9.1.1": {
-      "name": "com.unity.2d.common",
-      "displayName": "2D Common",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.2d.common@bc041c6e0d0d",
-      "fingerprint": "bc041c6e0d0d69f1195446076eff5ef3189d3e92",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "9.1.1",
       "source": "registry",
       "testable": false
     },
@@ -634,8 +634,8 @@
     "com.unity.rendering.light-transport@1.0.1": {
       "name": "com.unity.rendering.light-transport",
       "displayName": "Unity Light Transport Library",
-      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.rendering.light-transport@56c10358ff14",
-      "fingerprint": "56c10358ff14eb57febd7c4f20246fc73173d069",
+      "resolvedPath": "D:\\MINERTD\\MINERTD\\Library\\PackageCache\\com.unity.rendering.light-transport@e647573c7d2a",
+      "fingerprint": "e647573c7d2ae78386ecb3f9f962738597f13fcf",
       "editorCompatibility": "2023.3.0b1",
       "version": "1.0.1",
       "source": "builtin",

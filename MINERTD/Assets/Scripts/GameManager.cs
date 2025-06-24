@@ -3,7 +3,8 @@ using TMPro;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
 using System.Collections;
-using UnityEngine.SceneManagement; // Importante para reiniciar a cena
+using UnityEngine.SceneManagement;
+using System;
 
 // --- ESTRUTURA PARA DEFINIR UMA ONDA ---
 [System.Serializable]
@@ -17,6 +18,9 @@ public class Onda
 
 public class GameManager : MonoBehaviour
 {
+    // --- EVENTO PARA O DESTRUIDOR DE TORRES ---
+    public static event Action<TorreIA> OnTorreConstruida;
+
     [Header("Dados do Jogo")]
     public int moedasAzuis = 500;
     public int limiteMaximoDeMineradores = 5;
@@ -30,7 +34,7 @@ public class GameManager : MonoBehaviour
     public Transform localDeMineracao;
     public Transform localDaBase;
     public RecursoMineravel minaPrincipal;
-    public GameObject painelGameOver; // <-- NOVO: Para a tela de Fim de Jogo
+    public GameObject painelGameOver;
 
     [Header("Referências da Loja")]
     public GameObject painelLoja;
@@ -56,16 +60,17 @@ public class GameManager : MonoBehaviour
     private GameObject torreParaPosicionar;
     private bool upgradesDesbloqueados = false;
     private int ondaAtualIndex = 0;
-    private bool jogoAcabou = false; // <-- NOVO: Flag de Fim de Jogo
+    private bool jogoAcabou = false;
     private int custoMinerador = 250;
     private int custoTorre = 400;
 
     void Start()
     {
         jogoAcabou = false;
-        Time.timeScale = 1f; // Garante que o tempo do jogo esteja correndo
+        Time.timeScale = 1f;
+        
         if (painelGameOver != null) painelGameOver.SetActive(false);
-
+        
         mineradoresAtuais = 0;
         AtualizarTextoMoedas();
         AtualizarTextosDaLoja();
@@ -82,7 +87,7 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        if (jogoAcabou) return; // Se o jogo acabou, não faz mais nada
+        if (jogoAcabou) return;
 
         if (torreParaPosicionar != null)
         {
@@ -92,7 +97,6 @@ public class GameManager : MonoBehaviour
             else if (Mouse.current.rightButton.wasPressedThisFrame) { CancelarPosicionamento(); }
         }
 
-        // --- NOVO: VERIFICAÇÃO DE FIM DE JOGO ---
         if (upgradesDesbloqueados && mineradoresAtuais <= 0 && moedasAzuis < custoMinerador)
         {
             GameOver();
@@ -102,11 +106,10 @@ public class GameManager : MonoBehaviour
     void GameOver()
     {
         jogoAcabou = true;
-        Time.timeScale = 0f; // Pausa o jogo
-        Debug.Log("FIM DE JOGO! Você não tem mais mineradores e não pode comprar novos.");
+        Time.timeScale = 0f;
         if (painelGameOver != null)
         {
-            painelGameOver.SetActive(true); // Mostra a tela de Fim de Jogo
+            painelGameOver.SetActive(true);
         }
     }
 
@@ -116,19 +119,79 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    // --- O resto do seu código, sem alterações ---
-    IEnumerator CicloDeOndas() { yield return new WaitForSeconds(tempoParaIniciarPrimeiraOnda); while (ondaAtualIndex < ondas.Length) { yield return StartCoroutine(SpawnOnda(ondas[ondaAtualIndex])); ondaAtualIndex++; if (ondaAtualIndex < ondas.Length) { yield return new WaitForSeconds(tempoEntreOndas); } } Debug.Log("Todas as ondas concluídas! VOCÊ VENCEU!"); }
+    IEnumerator CicloDeOndas() { yield return new WaitForSeconds(tempoParaIniciarPrimeiraOnda); while (ondaAtualIndex < ondas.Length) { yield return StartCoroutine(SpawnOnda(ondas[ondaAtualIndex])); ondaAtualIndex++; if (ondaAtualIndex < ondas.Length) { yield return new WaitForSeconds(tempoEntreOndas); } } Debug.Log("Todas as ondas foram concluídas! VOCÊ VENCEU!"); }
     IEnumerator SpawnOnda(Onda onda) { for (int i = 0; i < onda.quantidade; i++) { SpawnMonstro(onda.prefabDoMonstro); yield return new WaitForSeconds(onda.tempoEntreSpawns); } }
-    void SpawnMonstro(GameObject monstroPrefab) { if (pontosDeSpawnDosMonstros.Length == 0) return; Transform p = pontosDeSpawnDosMonstros[Random.Range(0, pontosDeSpawnDosMonstros.Length)]; Instantiate(monstroPrefab, p.position, Quaternion.identity); }
+    void SpawnMonstro(GameObject monstroPrefab) { if (pontosDeSpawnDosMonstros.Length == 0) return; Transform pontoDeSpawnAleatorio = pontosDeSpawnDosMonstros[UnityEngine.Random.Range(0, pontosDeSpawnDosMonstros.Length)];
+ }
     public void ToggleLoja() { if (painelLoja != null) { painelLoja.SetActive(!painelLoja.activeSelf); } }
-    public void TentarSpawnarMinerador() { if (mineradoresAtuais >= limiteMaximoDeMineradores) { return; } if (GastarMoedas(custoMinerador)) { mineradoresAtuais++; AtualizarContagemMineradores(); float vBonus = nivelUpgradeVelocidade * 0.2f; float hBonus = nivelUpgradeVida * 10f; GameObject novoGO = Instantiate(mineradorPrefab, pontoDeSpawn.position, Quaternion.identity); SeguirCaminho sc = novoGO.GetComponent<SeguirCaminho>(); if (sc != null) { sc.AplicarUpgrades(vBonus, hBonus); sc.Inicializar(localDeMineracao, localDaBase); } if (!upgradesDesbloqueados) { upgradesDesbloqueados = true; if (botaoComprarTorre != null) botaoComprarTorre.interactable = true; if (botaoUpgradeVida != null) botaoUpgradeVida.interactable = true; if (botaoUpgradeVelocidade != null) botaoUpgradeVelocidade.interactable = true; if (botaoUpgradeCapacidade != null) botaoUpgradeCapacidade.interactable = true; } } }
-    public void TentarComprarTorre() { if (!upgradesDesbloqueados) return; if (torreParaPosicionar != null) return; if (GastarMoedas(custoTorre)) { torreParaPosicionar = Instantiate(torrePrefab); if(torreParaPosicionar.GetComponent<TorreIA>() != null) { torreParaPosicionar.GetComponent<TorreIA>().enabled = false; } } }
+    
+    public void TentarSpawnarMinerador()
+    {
+        if (mineradoresAtuais >= limiteMaximoDeMineradores) { return; }
+        if (GastarMoedas(custoMinerador))
+        {
+            mineradoresAtuais++;
+            AtualizarContagemMineradores();
+            float vBonus = nivelUpgradeVelocidade * 0.2f;
+            float hBonus = nivelUpgradeVida * 10f;
+            GameObject novoGO = Instantiate(mineradorPrefab, pontoDeSpawn.position, Quaternion.identity);
+            SeguirCaminho sc = novoGO.GetComponent<SeguirCaminho>();
+            if (sc != null)
+            {
+                sc.AplicarUpgrades(vBonus, hBonus);
+                sc.Inicializar(localDeMineracao, localDaBase);
+            }
+            if (!upgradesDesbloqueados)
+            {
+                upgradesDesbloqueados = true;
+                if (botaoComprarTorre != null) botaoComprarTorre.interactable = true;
+                if (botaoUpgradeVida != null) botaoUpgradeVida.interactable = true;
+                if (botaoUpgradeVelocidade != null) botaoUpgradeVelocidade.interactable = true;
+                if (botaoUpgradeCapacidade != null) botaoUpgradeCapacidade.interactable = true;
+            }
+        }
+    }
+
+    public void TentarComprarTorre()
+    {
+        if (!upgradesDesbloqueados) return;
+        if (torreParaPosicionar != null) return;
+        if (GastarMoedas(custoTorre))
+        {
+            torreParaPosicionar = Instantiate(torrePrefab);
+            if(torreParaPosicionar.GetComponent<TorreIA>() != null) { torreParaPosicionar.GetComponent<TorreIA>().enabled = false; }
+        }
+    }
+    
     public void ComprarUpgradeVelocidade() { if (!upgradesDesbloqueados) return; int custo = 100 * (nivelUpgradeVelocidade + 1); if (GastarMoedas(custo)) { nivelUpgradeVelocidade++; AtualizarTextosDaLoja(); } }
     public void ComprarUpgradeVida() { if (!upgradesDesbloqueados) return; int custo = 150 * (nivelUpgradeVida + 1); if (GastarMoedas(custo)) { nivelUpgradeVida++; AtualizarTextosDaLoja(); } }
-    public void ComprarUpgradeCapacidade() { if (!upgradesDesbloqueados) return; int custo = 1000 + (200 * nivelUpgradeCapacidade); if (GastarMoedas(custo)) { nivelUpgradeCapacidade++; limiteMaximoDeMineradores++; if (minaPrincipal != null) { minaPrincipal.AumentarCapacidade(); } else { Debug.LogError("Referência para 'Mina Principal' não configurada no GameManager!"); } AtualizarTextosDaLoja(); AtualizarContagemMineradores(); } }
+    public void ComprarUpgradeCapacidade()
+    {
+        if (!upgradesDesbloqueados) return;
+        int custo = 1000 + (200 * nivelUpgradeCapacidade);
+        if (GastarMoedas(custo))
+        {
+            nivelUpgradeCapacidade++;
+            limiteMaximoDeMineradores++;
+            if (minaPrincipal != null) { minaPrincipal.AumentarCapacidade(); }
+            else { Debug.LogError("Referência para 'Mina Principal' não configurada no GameManager!"); }
+            AtualizarTextosDaLoja();
+            AtualizarContagemMineradores();
+        }
+    }
+
     public void RegistrarMorteDeMinerador() { mineradoresAtuais--; if (mineradoresAtuais < 0) mineradoresAtuais = 0; AtualizarContagemMineradores(); }
     public void DepositarMoedas(int quantidade) { moedasAzuis += quantidade; AtualizarTextoMoedas(); }
-    private void PosicionarTorre() { if(torreParaPosicionar.GetComponent<TorreIA>() != null) { torreParaPosicionar.GetComponent<TorreIA>().enabled = true; } torreParaPosicionar = null; }
+    private void PosicionarTorre()
+    {
+        TorreIA torreScript = torreParaPosicionar.GetComponent<TorreIA>();
+        if (torreScript != null)
+        {
+            torreScript.enabled = true;
+            OnTorreConstruida?.Invoke(torreScript);
+        }
+        torreParaPosicionar = null;
+    }
     private void CancelarPosicionamento() { DepositarMoedas(custoTorre); Destroy(torreParaPosicionar); torreParaPosicionar = null; }
     private bool GastarMoedas(int quantidade) { if (moedasAzuis >= quantidade) { moedasAzuis -= quantidade; AtualizarTextoMoedas(); return true; } else { Debug.LogWarning("Moedas insuficientes!"); return false; } }
     private void AtualizarTextoMoedas() { if (textoMoedas != null) textoMoedas.text = "Moedas: " + moedasAzuis; }

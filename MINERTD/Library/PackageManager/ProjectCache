@@ -5,29 +5,29 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638862997687051333
-    m_Hash: 3932835388
+      ticks: 638863351045182488
+    m_Hash: 1584018726
   m_LockFileStatus:
     m_FilePath: D:/MINERTD/MINERTD/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638862997688055376
-    m_Hash: 421575330
+      ticks: 638863352086482988
+    m_Hash: 1467264827
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/MINERTD/MINERTD/Packages
-m_EditorVersion: 6000.1.2f1 (8e2281df4c52)
+m_EditorVersion: 6000.1.8f1 (2a5b1522e5ab)
 m_ResolvedPackages:
-- packageId: com.unity.2d.animation@10.2.1
+- packageId: com.unity.2d.animation@11.0.0
   testable: 0
   isDirectDependency: 1
-  version: 10.2.1
+  version: 11.0.0
   source: 1
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.animation@81ad133dbdf1
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.animation@a1db3619cb6f
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -181,14 +181,12 @@ m_ResolvedPackages:
     - 12.0.0
     - 12.0.1
     compatible:
-    - 10.2.0
-    - 10.2.1
     - 11.0.0
-    recommended: 10.2.1
+    recommended: 11.0.0
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 9.1.1
+    version: 10.0.0
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
@@ -199,7 +197,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 9.1.1
+    version: 10.0.0
   - name: com.unity.burst
     version: 1.8.21
   - name: com.unity.mathematics
@@ -243,16 +241,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638856773149660000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@10.2/manual/index.html
+  datePublishedTicks: 638840327722830000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@11.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 383370d5a0ac5360369e71e96aa41ade8ed5c1b5
+    revision: 1e30f3ce6435ad72ffdd79c887034988b10b080b
     path: 
   unityLifecycle:
-    version: 10.2.0
+    version: 11.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -262,30 +260,30 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fix the exception when generating geometry
-    with hidden sprites. (DANB-841)\n- Added missing tooltips to visibility window
-    (DANB-843)\n- Fixed InvalidOperationException occurs when playing in sample scene
-    ''3 Character'' and ''Attachment Points''. (DANB-860)\n- Fix the issue of putting
-    a warning string \"Adding null Transform to TransformAccessArray will result
-    in degraded performance.\" (DANB-931)\n- Fixed misaligned text in 2D Animation
-    preferences (DANB-879)\n- Fixed blurry icons in Sprite Library Editor. (DANB-842)\n-
-    Fixed unselectable pivot dropdown in skinning editor. (DANB-956)\n- Fixed incorrect
-    scrollbars when adding a large number of categories to sprite library. (DANB-895)\n-
-    Fixed blurry Sprite Library asset icons in Project window. (DANB-901)\n- Fixed
-    wrong USS syntax."}'
+  upmReserved: '{"changelog":"### Changed\n- Update minimum Unity version.\n\n###
+    Fixed\n- Fix the exception when generating geometry with hidden sprites. (DANB-841)\n-
+    Added missing tooltips to visibility window (DANB-843)\n- Fixed InvalidOperationException
+    occurs when playing in sample scene ''3 Character'' and ''Attachment Points''.
+    (DANB-860)\n- Fix the issue of putting a warning string \"Adding null Transform
+    to TransformAccessArray will result in degraded performance.\" (DANB-931)\n-
+    Fixed misaligned text in 2D Animation preferences (DANB-879)\n- Fixed blurry
+    icons in Sprite Library Editor. (DANB-842)\n- Fixed unselectable pivot dropdown
+    in skinning editor. (DANB-956)\n- Fixed incorrect scrollbars when adding a large
+    number of categories to sprite library. (DANB-895)\n- Fixed blurry Sprite Library
+    asset icons in Project window. (DANB-901)"}'
   assetStore:
     productId: 
-  fingerprint: 81ad133dbdf13da9a686af329d3a20b84565fd89
+  fingerprint: a1db3619cb6fa1e3dfca36970137715fb4bbf194
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 10.2.0
-    minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.2d.aseprite@1.2.4
+    minimumPackageVersion: 11.0.0
+    minimumUnityVersion: 6000.1.0a9
+- packageId: com.unity.2d.aseprite@1.2.5
   testable: 0
   isDirectDependency: 1
-  version: 1.2.4
+  version: 1.2.5
   source: 1
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.aseprite@85ecd97bb34e
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.aseprite@fa26c8d7c7e6
   assetPath: Packages/com.unity.2d.aseprite
   name: com.unity.2d.aseprite
   displayName: 2D Aseprite Importer
@@ -324,13 +322,12 @@ m_ResolvedPackages:
     - 1.2.5
     - 2.0.0
     compatible:
-    - 1.2.4
     - 1.2.5
     recommended: 1.2.5
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 6.0.6
+    version: 10.0.0
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.2d.tilemap
@@ -341,7 +338,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 9.1.1
+    version: 10.0.0
   - name: com.unity.burst
     version: 1.8.21
   - name: com.unity.mathematics
@@ -384,16 +381,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638796177517290000
+  datePublishedTicks: 638840327702090000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.2/manual/index.html
   hasRepository: 1
   repository:
     type: git
-    url: https://github.cds.internal.unity3d.com/unity/AsepriteImporter.git
-    revision: 95000ec3a4319ed3fba90ba18cf6b0ac1803c0aa
+    url: https://github.cds.internal.unity3d.com/unity/2d.git
+    revision: 1e30f3ce6435ad72ffdd79c887034988b10b080b
     path: 
   unityLifecycle:
-    version: 1.2.4
+    version: 1.2.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -403,24 +400,21 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed an issue where going from Import
-    Mode: Individual Layers to Import Mode: Merge Frame would cause the importer
-    to fail the import. (DANB-875)\n- Fixed an issue where the content in the Aseprite''s
-    Preference menu were misaligned. (DANB-880)\n- Fixed an issue where some elements
-    in the Aseprite Importer inspector could not be edited when in Debug mode. (DANB-863)"}'
+  upmReserved: '{"changelog":"### Changed\n- Aseprite files containing Tile data
+    will automatically be imported as Tile Set by default."}'
   assetStore:
     productId: 
-  fingerprint: 85ecd97bb34ef7d790218acdd7941ef669c08e9a
+  fingerprint: fa26c8d7c7e609513dd2a8426aaa4c93bc49c566
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.2.4
+    minimumPackageVersion: 1.2.5
     minimumUnityVersion: 6000.1.0a9
-- packageId: com.unity.2d.psdimporter@10.1.0
+- packageId: com.unity.2d.psdimporter@10.1.1
   testable: 0
   isDirectDependency: 1
-  version: 10.1.0
+  version: 10.1.1
   source: 1
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.psdimporter@7cfb89931061
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.psdimporter@5684369550c9
   assetPath: Packages/com.unity.2d.psdimporter
   name: com.unity.2d.psdimporter
   displayName: 2D PSD Importer
@@ -525,20 +519,19 @@ m_ResolvedPackages:
     - 11.0.0
     - 11.0.1
     compatible:
-    - 10.1.0
     - 10.1.1
     recommended: 10.1.1
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 9.1.0
+    version: 10.0.0
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.2d.tilemap
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 9.1.1
+    version: 10.0.0
   - name: com.unity.burst
     version: 1.8.21
   - name: com.unity.mathematics
@@ -579,16 +572,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638774696118990000
+  datePublishedTicks: 638840327753070000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@10.1/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 94a6127c9283f843ec1c9482222d58cde9b291e9
+    revision: 1e30f3ce6435ad72ffdd79c887034988b10b080b
     path: 
   unityLifecycle:
-    version: 10.1.0
+    version: 10.1.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -598,22 +591,28 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- DANB-848 Fixed case where scroll down
-    problems occur and the \"Apply\" button cannot be pressed when the \"Advanced\"
-    tab is expanded\n- Properly expose Tilemap related APIs in the PSDImporter."}'
+  upmReserved: '{"changelog":"### Fixed\n- Fixed case Layer Separation toggle icon
+    is invisible when the icon state is \"separated\" with mousedown. (Case DANB-949)\n-
+    Fixed case Layer Merging and Separation toggle icon is obscured in the Layer
+    Management Panel of the PSD Importer (Case DANB-889)\n- Fixed case the Include
+    Hidden Layers option in the PSD Importer''s Layer Management Panel is not being
+    toggled reliably (Case DANB-888)\n- Fixed a typo in settings. (Case DANB-891)\n-
+    Fixed case where \"Mip Map Preserve Coverage\" is cut off in the Inspector window.
+    (Case DANB-892)\n- doc: fix headings and incorrect links in the PSDImporter properties
+    page"}'
   assetStore:
     productId: 
-  fingerprint: 7cfb899310610d953ec91c380a5a83dbbc5eabff
+  fingerprint: 5684369550c91a52a9754dbe304fc2fc7abc2afe
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 10.1.0
+    minimumPackageVersion: 10.1.1
     minimumUnityVersion: 6000.1.0a9
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.sprite@8e227b7a8e02
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.sprite@5eb30061d420
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -673,17 +672,17 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 8e227b7a8e02901a84d9678f982e6ae0efa3f5bb
+  fingerprint: 5eb30061d42006925d91d40a6a8fca10bd64bbee
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 2019.2.0a1
-- packageId: com.unity.2d.spriteshape@10.1.0
+- packageId: com.unity.2d.spriteshape@11.0.0
   testable: 0
   isDirectDependency: 1
-  version: 10.1.0
+  version: 11.0.0
   source: 1
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.spriteshape@49c1d1a01890
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.spriteshape@8dceeebcc959
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -796,20 +795,19 @@ m_ResolvedPackages:
     - 11.0.0
     - 12.0.0
     compatible:
-    - 10.1.0
     - 11.0.0
-    recommended: 10.1.0
+    recommended: 11.0.0
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 9.1.0
+    version: 10.0.0
   - name: com.unity.mathematics
     version: 1.1.0
   - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 9.1.1
+    version: 10.0.0
   - name: com.unity.burst
     version: 1.8.21
   - name: com.unity.mathematics
@@ -849,16 +847,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638774696104570000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@10.1/manual/index.html
+  datePublishedTicks: 638840327738830000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@11.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 94a6127c9283f843ec1c9482222d58cde9b291e9
+    revision: 1e30f3ce6435ad72ffdd79c887034988b10b080b
     path: 
   unityLifecycle:
-    version: 10.1.0
+    version: 11.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -871,17 +869,17 @@ m_ResolvedPackages:
   upmReserved: '{"changelog":"### Changed\n- Update minimum Unity version."}'
   assetStore:
     productId: 
-  fingerprint: 49c1d1a01890c6450aa2753c572ad04566abe2b7
+  fingerprint: 8dceeebcc959180e3ba5d6b20630c7f515ec7c48
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 10.1.0
-    minimumUnityVersion: 6000.0.0a1
+    minimumPackageVersion: 11.0.0
+    minimumUnityVersion: 6000.1.0a9
 - packageId: com.unity.2d.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.tilemap@e08379fa62fd
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.tilemap@855769f9baae
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -958,7 +956,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: e08379fa62fdfb4468e767be9412e985ee85c45f
+  fingerprint: 855769f9baae5e646d6af726032246ec4a7c0d19
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
@@ -1040,7 +1038,6 @@ m_ResolvedPackages:
     - 4.3.1
     - 5.0.0
     compatible:
-    - 4.3.0
     - 4.3.1
     recommended: 4.3.1
     deprecated: []
@@ -1091,7 +1088,7 @@ m_ResolvedPackages:
     revision: 1e30f3ce6435ad72ffdd79c887034988b10b080b
     path: 
   unityLifecycle:
-    version: 4.3.0
+    version: 4.3.1
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1109,14 +1106,14 @@ m_ResolvedPackages:
   fingerprint: b9e908ce61f443143c33adadfc68e2ada28418f7
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 4.3.0
+    minimumPackageVersion: 4.3.1
     minimumUnityVersion: 6000.1.0a9
-- packageId: com.unity.ads@4.4.2
+- packageId: com.unity.ads@4.12.0
   testable: 0
   isDirectDependency: 1
-  version: 4.4.2
+  version: 4.12.0
   source: 1
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.ads@a7b997f68a1d
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.ads@3bb3d269d51b
   assetPath: Packages/com.unity.ads
   name: com.unity.ads
   displayName: Advertisement Legacy
@@ -1125,7 +1122,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: "Connect your game to the Unity Ads Network for iOS and Android to
     quickly and effectively monetize your games.\n\nNOTE: Unity has joined forces
     with ironSource and recommends using Unity LevelPlay for ad mediation (instead
@@ -1215,13 +1212,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638161229410000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ads@4.4/manual/index.html
+  datePublishedTicks: 638568068510000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ads@4.12/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/unity-ads-sdk.git
-    revision: 532b2db792ae728eedcc825080876b4e2c5f8544
+    revision: dbc3d4a1b92606adc83b8bc4c82672512154a792
     path: 
   unityLifecycle:
     version: 4.4.2
@@ -1234,22 +1231,26 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"## **Unity**\n - Remove redirect pop-ups directing
-    users to Unity Mediation.\n## **Android**\n### **Bugfix**\n- Fixed a NullPointerException
-    when Application Context is null for cached directory file path.","gameService":{"groupName":"Monetization","groupIndex":4,"configurePath":"Project/Services/Ads","genericDashboardUrl":"https://unityads.unity3d.com/help/index","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/monetization/about","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"},"supportedPlatforms":["Android","iOS"]}'
+  upmReserved: '{"changelog":"## **Unity**\n- Added support for the Apple Privacy
+    Manifest update to ensure publisher compliance with the App Store submission
+    requirements.\n- Added Java 8 as a minimum requirement for adding the Unity Ads
+    SDK to your project.\n- Increased banner demand.\n- Improved banner life cycle
+    performance.\n- Reduced network requests.\n- Removed the use of a deprecated
+    openURL method.\n- Fixed an issue with detecting location on certain iOS versions
+    for devices used in China.\n- Fixed multiple bugs and made improvements.","gameService":{"groupName":"Monetization","groupIndex":4,"configurePath":"Project/Services/Ads","genericDashboardUrl":"https://unityads.unity3d.com/help/index","projectDashboardUrl":"https://dashboard.unity3d.com/organizations/{0}/projects/{1}/monetization/about","projectDashboardUrlType":"OrganizationKeyAndProjectGuid"},"supportedPlatforms":["Android","iOS"]}'
   assetStore:
     productId: 
-  fingerprint: a7b997f68a1d40387ca4d33fc75578709c140a37
+  fingerprint: 3bb3d269d51b1ced8f6f203c98bb025578933edd
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 4.4.2
-    minimumUnityVersion: 2018.4.18f1
-- packageId: com.unity.ai.navigation@2.0.7
+    minimumUnityVersion: 2021.3.0a1
+- packageId: com.unity.ai.navigation@2.0.8
   testable: 0
   isDirectDependency: 1
-  version: 2.0.7
+  version: 2.0.8
   source: 1
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.ai.navigation@39ae74efb85f
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.ai.navigation@eb5635ad590d
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -1287,7 +1288,6 @@ m_ResolvedPackages:
     - 2.0.7
     - 2.0.8
     compatible:
-    - 2.0.7
     - 2.0.8
     recommended: 2.0.8
     deprecated: []
@@ -1328,16 +1328,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638797994194330000
+  datePublishedTicks: 638841129733020000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: f9335c44bc8104d2271e2a5c17c1829670fd7ca6
+    revision: edeb8e889d1eedf4001fa41bdab7d69d01a62f24
     path: 
   unityLifecycle:
-    version: 2.0.7
+    version: 2.0.8
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1347,16 +1347,15 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Changed\n* The minimum supported editor version
-    is Unity 6 LTS. Compatibility with Unity 2023.2 is no longer guaranteed going
-    forward.\n\n### Fixed\n* Baking NavMeshSurface no longer fails when the game
-    object name has invalid file name characters."}'
+  upmReserved: '{"changelog":"### Fixed\n* Samples will now use appropriate material
+    colors in projects using HDRP or URP. Install the **com.unity.shadergraph** package
+    to show the materials correctly for built-in render pipeline projects."}'
   assetStore:
     productId: 
-  fingerprint: 39ae74efb85f9b44dc389774fc59c2ce4a8aa3b6
+  fingerprint: eb5635ad590d47cef2a5c920d9475cc222db3f67
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.7
+    minimumPackageVersion: 2.0.8
     minimumUnityVersion: 6000.0.0a1
 - packageId: com.unity.analytics@3.8.1
   testable: 0
@@ -1587,10 +1586,8 @@ m_ResolvedPackages:
     - 2.8.1
     - 2.8.2
     compatible:
-    - 2.7.1
-    - 2.8.1
     - 2.8.2
-    recommended: 2.7.1
+    recommended: 2.8.2
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -1631,7 +1628,7 @@ m_ResolvedPackages:
     revision: c1fbc35e6bbae1ac0e9a3481e441dfdb3602b5ef
     path: 
   unityLifecycle:
-    version: 2.7.1
+    version: 2.8.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -1649,7 +1646,7 @@ m_ResolvedPackages:
   fingerprint: c854d1f7d97fbe1905f3e3591ded6fe77d96e654
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.7.1
+    minimumPackageVersion: 2.8.2
     minimumUnityVersion: 2021.3.0f1
 - packageId: com.unity.ide.rider@3.0.36
   testable: 0
@@ -2312,7 +2309,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 17.1.0
   source: 2
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.render-pipelines.universal@5ed031f116da
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.render-pipelines.universal@a19b2562c494
   assetPath: Packages/com.unity.render-pipelines.universal
   name: com.unity.render-pipelines.universal
   displayName: Universal Render Pipeline
@@ -2464,7 +2461,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 5ed031f116dac3bff00542fc50bf1e411bea60f8
+  fingerprint: a19b2562c494b960b09ecf73e9341110b028b2a8
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.1.0
@@ -2567,7 +2564,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.5.1
   source: 2
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.test-framework@607a88b8f2d7
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.test-framework@7056e7f856e9
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -2695,17 +2692,17 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 607a88b8f2d7614281a086a98f027cd069f75d2d
+  fingerprint: 7056e7f856e91f1d294fbe8db0c8fea1ffd9ad5d
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.5.1
     minimumUnityVersion: 2022.3.0a1
-- packageId: com.unity.timeline@1.8.7
+- packageId: com.unity.timeline@1.8.8
   testable: 0
   isDirectDependency: 1
-  version: 1.8.7
+  version: 1.8.8
   source: 1
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.timeline@c58b4ee65782
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.timeline@fa3a0bab2b90
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -2714,7 +2711,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
   errors: []
@@ -2849,13 +2846,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638524833900000000
+  datePublishedTicks: 638739338167810000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: d6432ca638481c3d0e4c01f87f9cdbe3c4b1d529
+    revision: b01f8fc6766a468476830dec57fdf694f16104e6
     path: 
   unityLifecycle:
     version: 1.8.7
@@ -2868,30 +2865,28 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n- Released ronl-workflow-custom-marker.md
-    Added a new workflow to the Timeline Workflows documentation:\n- Released ronl-workflow-custom-marker.md
-    The `Create a custom Notes marker` workflow demonstrates how to create a custom
-    marker for adding notes to Timeline instances. This workflow also demonstrates
-    how to change the default appearance of a custom marker with scripting and a
-    Unity Style Sheet (USS).\n\n### Fixed\n\n- Fixed bug where using , and . (<>)
-    to step frames in the Animation Window while the Timeline Window was linked would
-    sometimes not work. [IN-56667](https://unity3d.atlassian.net/servicedesk/customer/portal/2/IN-56667)\n-
-    When the Timeline and Animation windows are linked and the Timeline Window is
-    active, moving the playhead in the Timeline Window will cause the animation window
-    to repaint immediately."}'
+  upmReserved: '{"changelog":"### Fixed\n\n- Fixed bug where the first property,
+    when it is a collection of objects, of a TrackAsset would not be properly displayed
+    in the inspector.\n- TimelineAsset.EditorSettings.SetStandardFrameRate would
+    incorrectly throw an ArgumentException if given a valid StandardFrameRates, this
+    has been corrected.\n- Clip blends will now be computed when using the API to
+    add clips to tracks - IN-66759\n- Improved performance when evaluating Timeline
+    Playables with a large number of clip based Animation Tracks (TB-259)\n- Updated
+    the Gameplay Sequence sample to show materials when using the Universal and HD
+    Render Pipelines."}'
   assetStore:
     productId: 
-  fingerprint: c58b4ee65782ad38338e29f7ee67787cb6998f04
+  fingerprint: fa3a0bab2b909389f8e6c20d5ff275c9e15ae0a2
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.8.7
-    minimumUnityVersion: 2019.3.0a1
+    minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.ugui@2.0.0
   testable: 0
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.ugui@f55986520ec2
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.ugui@57cef44123c7
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -2976,17 +2971,17 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: f55986520ec2233b4aa5aab4ebcd6626ad87f0ac
+  fingerprint: 57cef44123c7486b2e2f08dc6535aecf6c34b8ef
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
     minimumUnityVersion: 2019.2.0a1
-- packageId: com.unity.visualscripting@1.9.6
+- packageId: com.unity.visualscripting@1.9.8
   testable: 0
   isDirectDependency: 1
-  version: 1.9.6
+  version: 1.9.8
   source: 1
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.visualscripting@7dcdc439b230
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.visualscripting@b4d700247d4b
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -3037,7 +3032,6 @@ m_ResolvedPackages:
     - 1.9.7
     - 1.9.8
     compatible:
-    - 1.9.6
     - 1.9.7
     - 1.9.8
     recommended: 1.9.8
@@ -3070,16 +3064,16 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638769546699650000
+  datePublishedTicks: 638852496803020000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.visualscripting.git
-    revision: d24c56a75889cb6fe0046a9472368815d56d6bc7
+    revision: 2bb93a09becf00b2343d1c670afbf3836f170f55
     path: 
   unityLifecycle:
-    version: 1.9.6
+    version: 1.9.7
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -3089,29 +3083,15 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n- Fixed the output path for Property Providers
-    generated from User Editor code. [UVSB-2550](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2550)\n-
-    Fixed a minor spelling issue in the Project Settings section [UVSB-2523](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2523)\n-
-    Fixed an unexpected MissingComponentException thrown when using GetOrAddComponent
-    [UVSB-2575](https://jira.unity3d.com/browse/UVSB-2575)\n- Fixed scenes not reopening
-    after a Build when more than one Scene was opened and Visual Scripting with variables
-    is used. [UVSB-2561](https://jira.unity3d.com/browse/UVSB-2561)\n- Fixed values
-    of LocalizedAudioClip type being shown as None after selecting another game object
-    and returning back [UVSB-2528](https://jira.unity3d.com/browse/UVSB-2528)\n-
-    Fixed a compilation issue that happened when a project had another version of
-    NCalc already installed. [UVSB-2583](https://jira.unity3d.com/browse/UVSB-2583)\n-
-    Fixed an ''AudioMixerController'' is inaccessible due to its protection level''
-    error thrown when generating the AotStubs. [UVSB-2577](https://jira.unity3d.com/browse/UVSB-2577)\n-
-    Fixed compilation error when AotStubs references Unity.NetworkManager.__rpc_func_table
-    and Unity.NetworkManager.__rpc_name_table fields [UVSB-2563](https://issuetracker.unity3d.com/product/unity/issues/guid/UVSB-2563)\n\n###
-    Changed\n- Improved the warning message when a library fails to load while scanning
-    for Editor assemblies."}'
+  upmReserved: '{"changelog":"### Fixed\n- Fixed broken links to example codes in
+    API documentation.\n\n### Changed\n- Adds alt texts to images in documentation
+    to increase accessibility for screen readers."}'
   assetStore:
     productId: 
-  fingerprint: 7dcdc439b230145cec4202cd6ebad135736e0c14
+  fingerprint: b4d700247d4b84b3360e1afeb054b0bdb201fbc7
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 1.9.6
+    minimumPackageVersion: 1.9.7
     minimumUnityVersion: 2021.3.0a1
 - packageId: com.unity.xr.legacyinputhelpers@2.1.12
   testable: 0
@@ -3236,7 +3216,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -3303,7 +3283,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -3370,7 +3350,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -3436,7 +3416,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -3503,7 +3483,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -3570,7 +3550,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -3637,7 +3617,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -3708,7 +3688,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -3783,7 +3763,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -3850,7 +3830,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -3917,7 +3897,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -3984,7 +3964,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -4051,7 +4031,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -4118,7 +4098,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -4185,7 +4165,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -4256,7 +4236,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -4323,7 +4303,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -4398,7 +4378,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -4468,7 +4448,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -4535,7 +4515,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -4618,7 +4598,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -4685,7 +4665,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -4759,7 +4739,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -4826,7 +4806,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -4901,7 +4881,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -4976,7 +4956,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -5051,7 +5031,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -5142,7 +5122,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -5213,7 +5193,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -5292,7 +5272,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -5373,7 +5353,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -5440,7 +5420,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -5519,7 +5499,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -5590,7 +5570,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: F:\6000.1.2f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
+  resolvedPath: F:\6000.1.8f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -5945,7 +5925,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.1.0
   source: 2
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.render-pipelines.core@bb00910dd6f7
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.render-pipelines.core@71b4bdac1964
   assetPath: Packages/com.unity.render-pipelines.core
   name: com.unity.render-pipelines.core
   displayName: Scriptable Render Pipeline Core
@@ -6149,7 +6129,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: bb00910dd6f70e5998e5c269e31a144e64875601
+  fingerprint: 71b4bdac1964f74b866160605ee9150cf79ab359
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.1.0
@@ -6159,7 +6139,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.1.0
   source: 2
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.shadergraph@26dc5ae27e7d
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.shadergraph@e5d3455aa133
   assetPath: Packages/com.unity.shadergraph
   name: com.unity.shadergraph
   displayName: Shader Graph
@@ -6352,7 +6332,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 26dc5ae27e7d8949b4e95045bf189b8733da88ee
+  fingerprint: e5d3455aa13376f767ad6bf5f3faab2073877176
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.1.0
@@ -6362,7 +6342,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 17.0.3
   source: 2
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.render-pipelines.universal-config@6af1487fecff
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.render-pipelines.universal-config@8dc1aab4af1d
   assetPath: Packages/com.unity.render-pipelines.universal-config
   name: com.unity.render-pipelines.universal-config
   displayName: Universal Render Pipeline Config
@@ -6450,7 +6430,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 6af1487fecff04dbba58e29eb0f241dfd8592c96
+  fingerprint: 8dc1aab4af1d718781689a36ed5231a35ad1a524
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
@@ -6585,6 +6565,171 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 6.0.2
     minimumUnityVersion: 2021.3.0a1
+- packageId: com.unity.2d.common@10.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 10.0.0
+  source: 1
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.common@f525660c63bc
+  assetPath: Packages/com.unity.2d.common
+  name: com.unity.2d.common
+  displayName: 2D Common
+  author:
+    name: 
+    email: 
+    url: 
+  category: 2D
+  type: 
+  description: 2D Common is a package that contains shared functionalities that are
+    used by most of the other 2D packages.
+  errors: []
+  versions:
+    all:
+    - 1.0.9-preview.1
+    - 1.0.9-preview.2
+    - 1.0.10-preview
+    - 1.0.11-preview.1
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.2.0-preview.1
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 3.0.0
+    - 3.0.1
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+    - 4.0.4
+    - 4.1.0
+    - 4.2.0
+    - 4.2.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0
+    - 6.0.0-pre.2
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0
+    - 6.0.1
+    - 6.0.2
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    - 6.0.6
+    - 6.0.7
+    - 6.0.8
+    - 6.1.0
+    - 7.0.0-pre.3
+    - 7.0.0-pre.4
+    - 7.0.0
+    - 7.0.1
+    - 7.0.2
+    - 7.0.3
+    - 8.0.0-pre.1
+    - 8.0.0-pre.2
+    - 8.0.0
+    - 8.0.1
+    - 8.0.2
+    - 8.0.3
+    - 8.0.4
+    - 8.1.0
+    - 8.1.1
+    - 9.0.0-pre.1
+    - 9.0.0-pre.2
+    - 9.0.0
+    - 9.0.1
+    - 9.0.2
+    - 9.0.3
+    - 9.0.4
+    - 9.0.5
+    - 9.0.6
+    - 9.0.7
+    - 9.1.0
+    - 9.1.1
+    - 10.0.0
+    - 11.0.0
+    - 11.0.1
+    compatible:
+    - 10.0.0
+    recommended: 10.0.0
+    deprecated: []
+  dependencies:
+  - name: com.unity.burst
+    version: 1.8.4
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.mathematics
+    version: 1.1.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.8.21
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.2d.sprite
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  keywords:
+  - 2d
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638840327689340000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@10.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/2d.git
+    revision: 1e30f3ce6435ad72ffdd79c887034988b10b080b
+    path: 
+  unityLifecycle:
+    version: 10.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n- Update minimum Unity version.\n\n###
+    Fixed\n- DANB-796 Fixed case where 2D PSD Importer generates mipmaps when \"Generate
+    Mip Maps\" is disabled\n- DANB-879 Fixed misaligned text in 2D Animation preferences"}'
+  assetStore:
+    productId: 
+  fingerprint: f525660c63bc9f89d4f7c4bac92ea3258a39a0eb
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 10.0.0
+    minimumUnityVersion: 6000.1.0a9
 - packageId: com.unity.mathematics@1.3.2
   testable: 0
   isDirectDependency: 0
@@ -6674,173 +6819,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.3.2
     minimumUnityVersion: 2021.3.0a1
-- packageId: com.unity.2d.common@9.1.1
-  testable: 0
-  isDirectDependency: 0
-  version: 9.1.1
-  source: 1
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.2d.common@bc041c6e0d0d
-  assetPath: Packages/com.unity.2d.common
-  name: com.unity.2d.common
-  displayName: 2D Common
-  author:
-    name: 
-    email: 
-    url: 
-  category: 2D
-  type: 
-  description: 2D Common is a package that contains shared functionalities that are
-    used by most of the other 2D packages.
-  errors: []
-  versions:
-    all:
-    - 1.0.9-preview.1
-    - 1.0.9-preview.2
-    - 1.0.10-preview
-    - 1.0.11-preview.1
-    - 1.1.0-preview.1
-    - 1.1.0-preview.2
-    - 1.2.0-preview.1
-    - 2.0.1
-    - 2.0.2
-    - 2.1.0
-    - 2.1.1
-    - 2.1.2
-    - 3.0.0
-    - 3.0.1
-    - 4.0.0
-    - 4.0.1
-    - 4.0.2
-    - 4.0.3
-    - 4.0.4
-    - 4.1.0
-    - 4.2.0
-    - 4.2.1
-    - 5.0.0-pre.1
-    - 5.0.0-pre.2
-    - 5.0.0
-    - 6.0.0-pre.2
-    - 6.0.0-pre.3
-    - 6.0.0-pre.4
-    - 6.0.0
-    - 6.0.1
-    - 6.0.2
-    - 6.0.3
-    - 6.0.4
-    - 6.0.5
-    - 6.0.6
-    - 6.0.7
-    - 6.0.8
-    - 6.1.0
-    - 7.0.0-pre.3
-    - 7.0.0-pre.4
-    - 7.0.0
-    - 7.0.1
-    - 7.0.2
-    - 7.0.3
-    - 8.0.0-pre.1
-    - 8.0.0-pre.2
-    - 8.0.0
-    - 8.0.1
-    - 8.0.2
-    - 8.0.3
-    - 8.0.4
-    - 8.1.0
-    - 8.1.1
-    - 9.0.0-pre.1
-    - 9.0.0-pre.2
-    - 9.0.0
-    - 9.0.1
-    - 9.0.2
-    - 9.0.3
-    - 9.0.4
-    - 9.0.5
-    - 9.0.6
-    - 9.0.7
-    - 9.1.0
-    - 9.1.1
-    - 10.0.0
-    - 11.0.0
-    - 11.0.1
-    compatible:
-    - 9.1.0
-    - 9.1.1
-    - 10.0.0
-    recommended: 9.1.1
-    deprecated: []
-  dependencies:
-  - name: com.unity.burst
-    version: 1.8.4
-  - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.mathematics
-    version: 1.1.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.burst
-    version: 1.8.21
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.hierarchycore
-    version: 1.0.0
-  keywords:
-  - 2d
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638856773121490000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@9.1/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 383370d5a0ac5360369e71e96aa41ade8ed5c1b5
-    path: 
-  unityLifecycle:
-    version: 9.1.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Fixed\n- DANB-796 Fixed case where 2D PSD Importer
-    generates mipmaps when \"Generate Mip Maps\" is disabled\n- DANB-879 Fixed misaligned
-    text in 2D Animation preferences"}'
-  assetStore:
-    productId: 
-  fingerprint: bc041c6e0d0d69f1195446076eff5ef3189d3e92
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 9.1.0
-    minimumUnityVersion: 6000.0.0a1
 - packageId: com.unity.collections@2.5.1
   testable: 0
   isDirectDependency: 0
@@ -7347,7 +7325,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 2
-  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.rendering.light-transport@56c10358ff14
+  resolvedPath: D:\MINERTD\MINERTD\Library\PackageCache\com.unity.rendering.light-transport@e647573c7d2a
   assetPath: Packages/com.unity.rendering.light-transport
   name: com.unity.rendering.light-transport
   displayName: Unity Light Transport Library
@@ -7433,7 +7411,7 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 56c10358ff14eb57febd7c4f20246fc73173d069
+  fingerprint: e647573c7d2ae78386ecb3f9f962738597f13fcf
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.1
@@ -7655,4 +7633,4 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 3.1.0
     minimumUnityVersion: 2020.3.0a1
-m_BuiltInPackagesHash: 0620e8cf0e2ba74856203b50d0a1e7e0e0b09da0
+m_BuiltInPackagesHash: cfd11ab9ae2ef5e76c6cd7eb41ac397e986a3fd1

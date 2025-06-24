@@ -43734,6 +43734,10 @@ MonoBehaviour:
     prefabDoMonstro: {fileID: 4548885570843679166, guid: 7b5805dd451f81b47b59bc968fee0e92, type: 3}
     quantidade: 20
     tempoEntreSpawns: 20
+  - nomeDaOnda: crow
+    prefabDoMonstro: {fileID: 5922485020467106336, guid: 4afdffe8f8e818648ab70b7c955634af, type: 3}
+    quantidade: 5
+    tempoEntreSpawns: 10
   pontosDeSpawnDosMonstros:
   - {fileID: 2085597582}
   - {fileID: 242481259}
