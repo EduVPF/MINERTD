@@ -5,12 +5,10 @@ public class TorreIA : MonoBehaviour
     [Header("Atributos da Torre")]
     public float alcance = 5f;
     public float tempoEntreDisparos = 1f;
-    // O dano agora está no projétil, mas podemos deixar aqui para referência se quisermos
-    // public float danoPorDisparo = 25f; 
 
     [Header("Referências (Arrastar no Inspector)")]
-    public GameObject projetilPrefab; // O "molde" do nosso projétil
-    public Transform pontoDeDisparo;  // Um ponto de onde o projétil vai sair
+    public GameObject projetilPrefab; 
+    public Transform pontoDeDisparo;  
 
     private Transform alvo;
     private float timerDisparo;
@@ -29,8 +27,6 @@ public class TorreIA : MonoBehaviour
                 alvo = null;
                 return;
             }
-
-            // Não precisamos mais mirar, a torre é estática
 
             timerDisparo += Time.deltaTime;
             if (timerDisparo >= tempoEntreDisparos)
@@ -65,18 +61,18 @@ public class TorreIA : MonoBehaviour
 
         Debug.Log(gameObject.name + " atirando em " + alvo.name);
 
-        // 1. Cria uma cópia do nosso projétil no ponto de disparo
+
         GameObject novoProjetilGO = Instantiate(projetilPrefab, pontoDeDisparo.position, Quaternion.identity);
         
-        // 2. Pega o script do projétil que acabamos de criar
+ 
         Projetil projetilScript = novoProjetilGO.GetComponent<Projetil>();
         
-        // 3. Calcula a direção para o alvo e manda o projétil ir nessa direção
+
         Vector2 direcao = alvo.position - pontoDeDisparo.position;
         projetilScript.Iniciar(direcao);
     }
 
-    // Desenha o alcance no Editor
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;

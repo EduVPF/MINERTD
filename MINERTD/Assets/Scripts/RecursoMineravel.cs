@@ -9,58 +9,87 @@ public class RecursoMineravel : MonoBehaviour
 
     [Header("Visual de Desgaste")]
     public GameObject[] iconesDeDurabilidade;
-    
+
     [HideInInspector] public float durabilidadeAtual;
     public SemaphoreSlim VagasDeMineracao { get; private set; }
     public bool EstaEsgotado { get; private set; }
-    private readonly object lockDurabilidade = new object();
-    private int capacidadeAtualDaMina;
 
+    private readonly object lockDurabilidade = new object();
+    private bool jaAvisou = false;
+
+public void ReceberDanoDeMineracao(float dano)
+{
+    lock (lockDurabilidade)
+    {
+        if (durabilidadeAtual > 0)
+        {
+            durabilidadeAtual -= dano;
+            // LOG 1: VERIFICAR SE O DANO ESTÁ SENDO RECEBIDO
+            Debug.Log($"Mina recebeu dano. Durabilidade agora: {durabilidadeAtual}");
+
+            if (durabilidadeAtual <= 0)
+            {
+                durabilidadeAtual = 0;
+                EstaEsgotado = true;
+                // LOG 2: VERIFICAR SE A MINA REALMENTE 'ESGOTA'
+                Debug.Log($"!!! MINA '{gameObject.name}' ESGOTADA !!! O estado 'EstaEsgotado' agora é true.");
+            }
+        }
+    }
+}
     void Awake()
     {
         durabilidadeAtual = durabilidadeMaxima;
         EstaEsgotado = false;
-        capacidadeAtualDaMina = capacidadeInicialDeMineradores;
-        
-        // --- MUDANÇA PRINCIPAL AQUI ---
-        // Criamos o semáforo com a capacidade inicial, mas com um limite máximo alto (ex: 100)
-        VagasDeMineracao = new SemaphoreSlim(capacidadeInicialDeMineradores, 100); 
-        
+        jaAvisou = false;
+        VagasDeMineracao = new SemaphoreSlim(capacidadeInicialDeMineradores, 100);
+
+
+
+    }
+    void Start()
+    {
+
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.RegistrarNovaMina();
+        }
+        else
+        {
+            Debug.LogError("ERRO: RecursoMineravel não conseguiu encontrar a instância do GameManager!");
+        }
+    }
+    void Update()
+    {
         AtualizarVisual();
     }
 
+
+
     public void AumentarCapacidade()
     {
-        // Este método agora funciona, pois o semáforo tem espaço para crescer até o limite de 100.
         VagasDeMineracao.Release();
-        capacidadeAtualDaMina++;
-        Debug.Log($"Capacidade da mina aumentada! Vagas atuais: {capacidadeAtualDaMina}");
     }
 
-    // O resto do script continua igual
-    public void ReceberDanoDeMineracao(float dano)
+public void AtualizarVisual()
+{
+    if (EstaEsgotado && !jaAvisou)
     {
-        lock (lockDurabilidade)
-        {
-            if (durabilidadeAtual > 0)
-            {
-                durabilidadeAtual -= dano;
-                if (durabilidadeAtual <= 0)
-                {
-                    durabilidadeAtual = 0;
-                    EstaEsgotado = true;
-                }
-            }
-        }
+        // LOG 3: VERIFICAR SE A LÓGICA DE NOTIFICAÇÃO É ATIVADA
+        Debug.Log($"CONDIÇÃO DE AVISO ATINGIDA para '{gameObject.name}'. Tentando avisar o GameManager...");
+
+        jaAvisou = true;
+        if (GameManager.Instance != null)
+{
+    GameManager.Instance.RegistrarMinaEsgotada();
+}
+else
+{
+     Debug.LogError($"ERRO CRÍTICO: Tentou avisar o GameManager, mas a instância Singleton do GameManager não foi encontrada!");
+}
+        gameObject.SetActive(false);
+        return;
     }
-    
-    public void AtualizarVisual()
-    {
-        if (EstaEsgotado && gameObject.activeInHierarchy)
-        {
-            gameObject.SetActive(false);
-            return;
-        }
 
         if (iconesDeDurabilidade == null || iconesDeDurabilidade.Length == 0) return;
         float porcentagemVida = durabilidadeAtual / durabilidadeMaxima;

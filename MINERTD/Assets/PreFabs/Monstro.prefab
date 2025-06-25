@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0adf24e8855b0ea42ba2551164acaffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaMaxima: 100
+  vidaMaxima: 70
   tempoAnimacaoMorte: 1.51
 --- !u!114 &190830018767392397
 MonoBehaviour:
@@ -86,10 +86,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadeMinima: 1.2
-  velocidadeMaxima: 1.5
+  velocidadeMaxima: 1.45
   dano: 5
+  multiplicadorDanoContraTorres: 4
   alcanceAtaque: 0.5
-  tempoEntreAtaques: 1.5
+  tempoEntreAtaques: 2
 --- !u!212 &6763209390801435339
 SpriteRenderer:
   m_ObjectHideFlags: 0

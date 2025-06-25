@@ -2,62 +2,46 @@ using UnityEngine;
 
 public class MonstroAI : MonoBehaviour
 {
-    [Header("Atributos do Monstro")]
-    public float velocidadeMinima = 1.2f; // <-- NOVO: Velocidade mínima
-    public float velocidadeMaxima = 2.0f; // <-- NOVO: Velocidade máxima
+    [Header("Atributos (Velocidade Aleatória)")]
+    public float velocidadeMinima = 1.2f;
+    public float velocidadeMaxima = 2.0f;
+    
+    [Header("Atributos de Combate")]
     public float dano = 10f;
-    public float alcanceAtaque = 0.5f;
+    public float multiplicadorDanoContraTorres = 2f; 
+    public float alcanceAtaque = 1.0f;
     public float tempoEntreAtaques = 1.5f;
 
+    // --- Variáveis Internas ---
     private Transform alvo;
     private Saude saudeDoAlvo;
     private float timerAtaque;
     private Animator animator;
-    private float velocidade; // A velocidade específica desta instância do monstro
+    private float velocidadeInstancia;
 
     void Start()
     {
         animator = GetComponent<Animator>();
-        // --- NOVO: Define uma velocidade aleatória para este monstro ---
-        velocidade = Random.Range(velocidadeMinima, velocidadeMaxima);
-        
-        // Inicia o timer "cheio" para que ele possa atacar assim que chegar perto
+        velocidadeInstancia = Random.Range(velocidadeMinima, velocidadeMaxima);
         timerAtaque = tempoEntreAtaques; 
-        
-        // Já começa procurando um alvo
         EncontrarNovoAlvo();
     }
 
     void Update()
     {
-        // Se não tem um alvo ou o alvo foi destruído, procura por um novo
-        if (alvo == null || !alvo.gameObject.activeInHierarchy)
-        {
-            EncontrarNovoAlvo();
-        }
+        if (alvo == null || !alvo.gameObject.activeInHierarchy) { EncontrarNovoAlvo(); }
+        if (alvo == null) { if(animator != null) animator.SetInteger("Estado", 0); return; }
 
-        // Se, depois de procurar, ainda não tem um alvo, fica parado.
-        if (alvo == null)
-        {
-            animator.SetInteger("Estado", 0); // Animação de Parado
-            return;
-        }
-
-        // Se tem um alvo, executa a lógica de perseguição e ataque
         float distanciaParaAlvo = Vector2.Distance(transform.position, alvo.position);
-
         if (distanciaParaAlvo > alcanceAtaque)
         {
-            // Perseguindo
-            transform.position = Vector2.MoveTowards(transform.position, alvo.position, velocidade * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, alvo.position, velocidadeInstancia * Time.deltaTime);
             GetComponent<SpriteRenderer>().flipX = (alvo.position.x > transform.position.x);
-            animator.SetInteger("Estado", 1); // Animação de andando
+            if(animator != null) animator.SetInteger("Estado", 1);
         }
         else 
         {
-            // No alcance, para de andar e prepara para atacar
-            animator.SetInteger("Estado", 0); // Animação de parado
-
+            if(animator != null) animator.SetInteger("Estado", 0);
             timerAtaque += Time.deltaTime;
             if (timerAtaque >= tempoEntreAtaques)
             {
@@ -67,54 +51,43 @@ public class MonstroAI : MonoBehaviour
         }
     }
 
-    // --- MÉTODO ATUALIZADO PARA ENCONTRAR O ALVO MAIS PRÓXIMO ---
     void EncontrarNovoAlvo()
     {
-        // Pega uma lista de TODOS os mineradores na cena
-        SeguirCaminho[] todosOsMineradores = FindObjectsByType<SeguirCaminho>(FindObjectsSortMode.None);
-
-        // Se não há mineradores na cena, o alvo é nulo
-        if (todosOsMineradores.Length == 0)
-        {
-            alvo = null;
-            return;
-        }
-
+        Saude[] todosOsAlvosComVida = FindObjectsByType<Saude>(FindObjectsSortMode.None);
         Transform alvoMaisProximo = null;
-        float menorDistancia = Mathf.Infinity; // Começa com uma distância "infinita"
-
-        // Passa por cada minerador da lista
-        foreach (SeguirCaminho minerador in todosOsMineradores)
+        float menorDistancia = Mathf.Infinity;
+        foreach (Saude saudeAlvo in todosOsAlvosComVida)
         {
-            // Calcula a distância deste monstro até o minerador atual
-            float distancia = Vector2.Distance(transform.position, minerador.transform.position);
-
-            // Se a distância para este minerador for menor que a menor distância encontrada até agora...
-            if (distancia < menorDistancia)
+            if (saudeAlvo.transform == this.transform) continue;
+            if (saudeAlvo.GetComponent<SeguirCaminho>() != null || saudeAlvo.GetComponent<TorreIA>() != null)
             {
-                // ...este minerador se torna o novo "mais próximo".
-                menorDistancia = distancia;
-                alvoMaisProximo = minerador.transform;
+                float distancia = Vector2.Distance(transform.position, saudeAlvo.transform.position);
+                if (distancia < menorDistancia)
+                {
+                    menorDistancia = distancia;
+                    alvoMaisProximo = saudeAlvo.transform;
+                }
             }
         }
-
-        // Define o alvo final como o mais próximo que foi encontrado
         alvo = alvoMaisProximo;
-        if (alvo != null)
-        {
-            saudeDoAlvo = alvo.GetComponent<Saude>();
-        }
+        if (alvo != null) { saudeDoAlvo = alvo.GetComponent<Saude>(); }
     }
 
     void Atacar()
     {
-        if (alvo == null) return;
+        if (alvo == null || saudeDoAlvo == null) return;
         
-        animator.SetTrigger("Atacar"); 
+        if(animator != null) animator.SetTrigger("Atacar");
 
-        if (saudeDoAlvo != null)
+
+        float danoFinal = this.dano;
+
+        if (alvo.GetComponent<TorreIA>() != null)
         {
-            saudeDoAlvo.ReceberDano(dano);
+            danoFinal *= multiplicadorDanoContraTorres;
+            Debug.Log("Dano bônus contra torre! Dano total: " + danoFinal);
         }
+        
+        saudeDoAlvo.ReceberDano(danoFinal);
     }
 }
